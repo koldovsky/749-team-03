@@ -401,9 +401,9 @@
     <!-- Illia Moskaliuk -->
     <section class="contacts">
         <div class="contacts__details">
-            <h2 contacts__header>CONTACTS</h2>
+            <h2 class="contacts__header" >CONTACTS</h2>
             <img class="contacts__image" src="img/divider_green.svg" alt="divider green">
-            <p contacts__paragrapg>We will be happy to answer any questions and lend drones for any period.</p>
+            <p class="contacts__paragrapg" >We will be happy to answer any questions and lend drones for any period.</p>
             <div class="contacts__address">
                 <h3 class="adress__header">Address</h3>
                 <p class="adress__informatuon">412 Clifton Ave, San Jose, CA 95128, USA </p>
@@ -416,16 +416,16 @@
             <div class="contacts__information">
                 <h3 class="contacts__title">Contacts</h3>
                 <a class="contacts__phone" href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
-                <a class="contacts__email" href="strikerdrones@email.com">strikerdrones@email.com</a>
+                <a class="contacts__email" href="mailto:strikerdrones@email.com">strikerdrones@email.com</a>
 
             </div>
         </div>
         <form action="https://formspree.io/f/mbjedvjw" method="post" class="class__form">
-            <input type="text" name="full name" placeholder="Enter your full name*" required>
-            <input type="tel" name="phone" placeholder="Enter your phone number*" required>
-            <input type="email" name="email" placeholder="Enter your email*" required>
-            <textarea name="message" cols="30" rows="10" placeholder="Enter your message"> </textarea>
-            <input type="submit" value="Request a quote">
+           <label><input type="text" name="full name" placeholder="Enter your full name*" required></label>
+            <label for="input_phone"><input id="input_phone" type="tel" name="phone" placeholder="Enter your phone number*" required></label>
+            <label for="input_email"><input id="input_email" type="email" name="email" placeholder="Enter your email*" required></label>
+            <label for="input_message"><textarea id="input_message" name="message" cols="30" rows="10" placeholder="Enter your message"> </textarea></label>
+            <label for="input_submit"><input id="input_submit" type="submit" value="Request a quote"></label>
 
         </form>
 
