@@ -7,171 +7,484 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+
+    <!--Vladyslav Siverskiy-->
+    <!--Volodymyr Feduniv-->
+    <!--Mykola Petroliuk-->
+    <!--Danylo Shtykalo-->
+    <!--Dmytro Gavrylov-->
+    <!-- Eugene Anisimov -->
+    <!--Illia Moskaliuk -->
+    <!--Hopei Danylo-->
+    <!--Ivan Okan-->
+    <!--- Список людей, які зробили пуш в репозиторій-->
 </head>
 
 <body>
-    <!--Vladyslav Siverskiy-->
-    <!--Volodymyr Feduniv-->
-    <!--Danylo Shtykalo-->
-    <!--Dmytro Gavrylov-->
-    <!--Illia Moskaliuk -->
-    <!--Hopei Danylo-->
-    <header>
-        <h1>Team Template</h1>
-    </header>
-    <main>
-        <!-- Hopei Danylo-->
-        <section class="incognito">
-            <div class="incognito__drones-photo">
-              <img class="incognito__dron" src="img/icons-dron-ocean.png" alt="Drone">
+
+<!-- Shtykalo Danylo -->
+<section
+        class="welcome__page"
+        style="
+      background-image: url(./img/welcome_page_background_image.webp);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    "
+>
+    <!--стиль -->
+    <div class="welcome_page_content">
+        <header class="header">
+            <div class="header_logo">
+                <img
+                        width="122"
+                        src="./img/header_logo.svg"
+                        alt="logo"
+                /><!--стиль -->
             </div>
-            <div class="incognito__drones-about"> 
-              <h2 class="incognito__title">ABOUT STRIKER DRONES</h2>
-                <p class="incognito__slesh"><img src="img/icons-slesh.svg" alt="slesh"></p>
-              
-              <span class="incognito__text">Striker Drones is your opportunity to rent drones in California at competitive
+            <div class="navigation_block">
+                <nav class="navigation__items">
+                    <ul>
+                        <li><a href="#">About as</a
+                        ></li><!--#-->
+                        <li><a href="#">Drones</a
+                        ></li><!--#-->
+                        <li><a href="#">Gallery</a
+                        ></li><!--#-->
+                        <li><a href="#">Testimonials</a
+                        ></li><!--#-->
+                        <li><a href="#">Contacts us</a
+                        ></li><!--#-->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="welcome_info_block">
+            <h1>
+                STRIKER<br/>
+                DRONES
+            </h1>
+            <img src="img/icons-slesh.svg" alt="slesh"/>
+            <p class="info_block_paragraf" style="color: aliceblue">
+                Reliable drone rental in California.
+            </p>
+            <!--стиль -->
+            <a href="#">Rent A DRONE</a
+            ><!--#-->
+            <a href="#">LEARN MORE</a
+            ><!--#-->
+        </div>
+    </div>
+</section>
+
+<!-- Block 1 -->
+
+<main>
+    <!-- зробити wrapper на кожен блок, перейменувати основний блок з додаванням __wrapper -->
+
+
+    <!-- Hopei Danylo-->
+    <section class="incognito">  <!-- перейминувати інкогніто на about -->
+        <div class="incognito__drones-photo">
+            <img class="incognito__dron" src="img/icons-dron-ocean.png" alt="Drone">
+        </div>
+        <div class="incognito__drones-about">
+            <h2 class="incognito__title">ABOUT STRIKER DRONES</h2>
+            <p class="incognito__slesh"><img src="img/icons-slesh.svg" alt="slesh"></p>
+
+            <span class="incognito__text">Striker Drones is your opportunity to rent drones in California at competitive
                 prices.
                 Here you will find the widest selection of drones. Expand your horizons with drones from the best
                 brands.</span>
-              <span class="incognito__slogo">We offer drones for any photo and video shooting in 4K quality.In addition,
+            <span class="incognito__slogo">We offer drones for any photo and video shooting in 4K quality.In addition,
                 here you
                 can
                 rent drones for permanent tracking of a moving object.Striker Drones offers different models of devices with
                 different ranges of signal reception distance - from several tens of meters to 6.5 kilometers.</span>
-              <div class="incognito__numbers">
+            <div class="incognito__numbers">
                 <h3 class="incognito__content">58</h3>
                 <p class="incognito__available">Drones Available</p>
                 <h3 class="incognito__avon">19</h3>
                 <p class="incognito__models">Drone Models</p>
                 <h3 class="incognito__too">2000</h3>
                 <p class="incognito__clients">Clients in 2019</p>
-                <!-- Можливо застосувати списки--> 
-              </div>
+                <!-- Можливо застосувати списки-->
             </div>
-          </section>
-        <!-- 2 block-->
-        <!--Feduniv Volodymyr-->
-        <section class="drones__section_wrapper">
-            <div class="drones__section">
+        </div>
+    </section>
+    <!-- 2 block-->
 
-                <section class="drones__header_wrapper">
-                    <div class="empty_space"></div>
-                    <header class="drones__header">
-                        <div class="drones__header_title white">Our Drones</div>
-                        <div class="line white">----------</div>
-                        <div class="drones_header_text white">Want to see more models? Contact us, send a request or drop by our office in San Jose. </div>
-                    </header>
-                    <div class="empty_space"></div>
-                </section>
-                <div class="drones__slider">
-                    <div class="slider__card">
-                        <div class="card__image"><img src="img/DJI_Mavic_2_Zoom.png" alt="Mavic 2 Zoom Drone"></div>
-                        <p class="card__title"><span>DJI MAVIC 2 ZOOM </span><span>from </span><span>$120/mo</span>       </p>
-                        <div class="line"></div>
-                        <div class="card__menu">
-                            <div class="menu__upper">
-                                <div class="menu__upper_text">Characteristics</div>
-                                <div class="menu__upper_button"> + </div>
-                            </div>
-                            <div class="menu__dropdown">
-                                <div class="menu__dropdown_item">Weight: 905g</div>
-                                <div class="menu__dropdown_item">Max. Speed: 72 km/h (S-mode)</div>
-                                <div class="menu__dropdown_item">Battery: 13830 mAh</div>
-                                <div class="menu__dropdown_item">Max. Resolution: 12 MP</div>
-                                <div class="menu__dropdown_item">Max. Flight Time: 31 minutes</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__card">
-                        <div class="card__image"><img src="img/DJI_Mavic_2_Pro.png" alt="Mavic 2 Pro Drone"></div>
-                        <p class="card__title"><span>DJI MAVIC 2 PRO </span><span>from </span><span>$120/mo </span></p>
-                        <div class="line"></div>
-                        <div class="card__menu"> 
-                            <div class="menu__upper">
-                                <div class="menu__upper_text">Characteristics</div>
-                                <div class="menu__upper_button"> + </div>
-                            </div>
-                            <div class="menu__dropdown">
-                                <div class="menu__dropdown_item">Weight: 907g</div>
-                                <div class="menu__dropdown_item">Max. Speed: 72 km/h (S-mode)</div>
-                                <div class="menu__dropdown_item">Battery: 3850 mAh</div>
-                                <div class="menu__dropdown_item">Max. Resolution: 20 MP</div>
-                                <div class="menu__dropdown_item">Max. Flight Time: 31 minutes</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__card">
-                        <div class="card__image"><img src="img/GOPRO_Karma_Drone.png" alt="GOPRO Karma Drone"></div>
-                        <p class="card__title"><span>GOPRO Karma Drone </span><span>from </span><span>$110/mo </span></p>
-                        <div class="line"></div>
-                        <div class="card__menu">
-                            <div class="menu__upper">
-                                <div class="menu__upper_text">Characteristics</div>
-                                <div class="menu__upper_button"> + </div>
-                            </div>
-                            <div class="menu__dropdown">
-                                <div class="menu__dropdown_item">Weight: 1.94 kg</div>
-                                <div class="menu__dropdown_item">Max. Speed: 56 km/h</div>
-                                <div class="menu__dropdown_item">Battery: 5100 mAh</div>
-                                <div class="menu__dropdown_item">Max. Resolution: 12.1 MP</div>
-                                <div class="menu__dropdown_item">Max. Flight Time: 20 minutes</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__card">
-                        <div class="card__image"><img src="img/DJI_Mavic_Air.png" alt="Mavic 2 Drone"></div>
-                        <p class="card__title"><span>DJI Mavic Air </span><span>from </span><span>$90/mo</span></p>
-                        <div class="line"></div>
-                        <div class="card__menu">
-                            <div class="menu__upper">
-                                <div class="menu__upper_text">Characteristics</div>
-                                <div class="menu__upper_button"> + </div>
-                            </div>
-                            <div class="menu__dropdown">
-                                <div class="menu__dropdown_item">Weight: 430g</div>
-                                <div class="menu__dropdown_item">Max. Speed: 68.4 km/h</div>
-                                <div class="menu__dropdown_item">Battery: 2375 mAh</div>
-                                <div class="menu__dropdown_item">Max. Resolution: 12 MP</div>
-                                <div class="menu__dropdown_item">Max. Flight Time: 21 minutes</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider__dots">
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                    </div>
+    <!-- Ivan Okan -->
+    <section class="advantages__drones">
+        <div class="advantages__block">
+        <img src="img/dualchok.png" alt="dualchok">
+        <h1>EASY TO USE</h1>
+        <img src="img/line_icon.png" alt="line_icon" width="100">
+        <p>When lending you the drone, our experts <br> will show how to use the device. Even a <br> child can control the drone.</p>
+        </div>
+        <div class="advantages__block">
+            <img src="img/camera_icon.jpg" alt="camera_icon">
+            <h1>4K VIDEO</h1>
+            <img src="img/line_icon.png" alt="line_icon" width="100">
+            <p>We offer devices adapted for taking photos<br>and shooting videos in 4K quality. Drones<br>can work in any weather conditions.</p>
+        </div>
+        <div class="advantages__block">
+                <img src="img/drone_icon.png" alt="drone_icon">
+                <h1>OBJECT TRACKING</h1>
+                <img src="img/line_icon.png" alt="line_icon" width="100">
+                <p>The drones we offer can track<br>the movement of goods or people. Data can be<br>transmitted as streaming video or via a GPS<br>sensor.</p>
+        </div>
+    </section>
+    <!-- Block 3 -->
 
-                </div>
+    <!--Dmytro Gavrylov-->
+    <section class="drones__needs">
+        <div class="drones__needs-info">
+            <h2 class="drones__needs-infoheader">Drones for Your Needs</h2>
+            <div class="drones__needs-line">
+                <img class="drones__needs-image" src="img/divider_red.svg" alt="divide_line">
             </div>
-        </section>
-        <!--5block-->
-        <!--Vladyslav Siverskiy-->
-        <section class="rewiev">
-            <div class="review__block">
-                <img class="review__image" src="img/customer_photo.png" alt="customer photo">
-                <div class="review__content">
-                    <h2 class="review__title">OUR CUSTOMERS SAY</h2>
-                    <span class="review__text">I run a
-                        Youtube channel. I was thinking about buying a drone, but then I realized that it was
-                        unprofitable. Renting a drone at Striker Drones is much more convenient and cheaper. The quality
-                        of the video shot on drone cameras is always excellent.</span>
-                    <p class="review__author">Dan Holmes</p>
-                    <div class="review__change-buttons">
-                        <button></button>
-                        <button></button>
-                        <button></button>
+            <p class="drones__needs-maintext">UAVs have long gone beyond military use. Drones are great for mapping,
+                taking photos, and shooting videos
+                from a height without a helicopter, real-time tracking, shipping, without taking a single extra step.
+            </p>
+            <p class="drones__needs-submaintext">Striker Drones offers the best conditions for renting drones. We
+                regularly hold promotions and discounts.
+                All drones that you can rent are in excellent technical condition. We carefully monitor the health of
+                drones and all components. We have the newest drones with various functions that may be useful to you.
+            </p>
+            <a class="drones__needs-button button" href="#">CHOOSE YOUR DRONE</a>
+        </div>
+        <div class="drones__interaction">
+            <img class="drones__interaction-image" src="img/drone_interaction.png" alt="drone interaction" width="200">
+        </div>
+    </section>
+    <!-- 4 block -->
+
+    <!--Feduniv Volodymyr-->
+    <section class="drones__section_wrapper">   <!-- змінити на Drones List -->
+        <div class="drones__section">
+
+            <section class="drones__header_wrapper">
+                <div class="empty_space"></div>
+                <header class="drones__header">
+                    <div class="drones__header_title white">Our Drones</div>
+                    <div class="line white">----------</div>
+                    <div class="drones_header_text white">Want to see more models? Contact us, send a request or drop by
+                        our office in San Jose.
+                    </div>
+                </header>
+                <div class="empty_space"></div> <!-- Змінити назву -->
+            </section>
+            <div class="drones__slider">
+                <div class="slider__card">
+                    <div class="card__image"><img src="img/DJI_Mavic_2_Zoom.png" alt="Mavic 2 Zoom Drone"></div>
+                    <p class="card__title"><span>DJI MAVIC 2 ZOOM </span><span>from </span><span>$120/mo</span></p>
+                    <div class="line"></div>
+                    <div class="card__menu">
+                        <div class="menu__upper">
+                            <div class="menu__upper_text">Characteristics</div>
+                            <div class="menu__upper_button"> +</div>
+                        </div>
+                        <div class="menu__dropdown">
+                            <div class="menu__dropdown_item">Weight: 905g</div>
+                            <div class="menu__dropdown_item">Max. Speed: 72 km/h (S-mode)</div>
+                            <div class="menu__dropdown_item">Battery: 13830 mAh</div>
+                            <div class="menu__dropdown_item">Max. Resolution: 12 MP</div>
+                            <div class="menu__dropdown_item">Max. Flight Time: 31 minutes</div>
+                        </div>
                     </div>
                 </div>
+                <div class="slider__card">
+                    <div class="card__image"><img src="img/DJI_Mavic_2_Pro.png" alt="Mavic 2 Pro Drone"></div>
+                    <p class="card__title"><span>DJI MAVIC 2 PRO </span><span>from </span><span>$120/mo </span></p>
+                    <div class="line"></div>
+                    <div class="card__menu">
+                        <div class="menu__upper">
+                            <div class="menu__upper_text">Characteristics</div>
+                            <div class="menu__upper_button"> +</div>
+                        </div>
+                        <div class="menu__dropdown">
+                            <div class="menu__dropdown_item">Weight: 907g</div>
+                            <div class="menu__dropdown_item">Max. Speed: 72 km/h (S-mode)</div>
+                            <div class="menu__dropdown_item">Battery: 3850 mAh</div>
+                            <div class="menu__dropdown_item">Max. Resolution: 20 MP</div>
+                            <div class="menu__dropdown_item">Max. Flight Time: 31 minutes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__card">
+                    <div class="card__image"><img src="img/GOPRO_Karma_Drone.png" alt="GOPRO Karma Drone"></div>
+                    <p class="card__title"><span>GOPRO Karma Drone </span><span>from </span><span>$110/mo </span></p>
+                    <div class="line"></div>
+                    <div class="card__menu">
+                        <div class="menu__upper">
+                            <div class="menu__upper_text">Characteristics</div>
+                            <div class="menu__upper_button"> +</div>
+                        </div>
+                        <div class="menu__dropdown">
+                            <div class="menu__dropdown_item">Weight: 1.94 kg</div>
+                            <div class="menu__dropdown_item">Max. Speed: 56 km/h</div>
+                            <div class="menu__dropdown_item">Battery: 5100 mAh</div>
+                            <div class="menu__dropdown_item">Max. Resolution: 12.1 MP</div>
+                            <div class="menu__dropdown_item">Max. Flight Time: 20 minutes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__card">
+                    <div class="card__image"><img src="img/DJI_Mavic_Air.png" alt="Mavic 2 Drone"></div>
+                    <p class="card__title"><span>DJI Mavic Air </span><span>from </span><span>$90/mo</span></p>
+                    <div class="line"></div>
+                    <div class="card__menu">
+                        <div class="menu__upper">
+                            <div class="menu__upper_text">Characteristics</div>
+                            <div class="menu__upper_button"> +</div>
+                        </div>
+                        <div class="menu__dropdown">
+                            <div class="menu__dropdown_item">Weight: 430g</div>
+                            <div class="menu__dropdown_item">Max. Speed: 68.4 km/h</div>
+                            <div class="menu__dropdown_item">Battery: 2375 mAh</div>
+                            <div class="menu__dropdown_item">Max. Resolution: 12 MP</div>
+                            <div class="menu__dropdown_item">Max. Flight Time: 21 minutes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__dots">
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
+
             </div>
-        </section>
-        <!--9block-->
+        </div>
+    </section>
+    <!-- 5 block -->
 
-    </main>
-    <footer>
+    <!--Dmytro Gavrylov-->
+    <section class="rent__drone">
+        <h2 class="rent__drone-header">WANT TO RENT A DRONE?</h2>
+        <div class="rent__drone-img">
+            <img class="rent__drone-img-item" src="img/divider_green.svg" alt="divide_line">
+        </div>
+        <p class="rent__drone-text">Book your drone for rent right now by filling out the form and get a 10% discount!
+        </p>
+        <a class="rent__drone-button button" href="#">RENT A DRONE</a>
+        <img src="img/white_drone.png" alt="white drone image" width="200">
+    </section>
+    <!-- 7 block -->
 
-    </footer>
+    <!--Eugene Anisimov-->
+    <section class="blog__wrapper">
+        <div class="blog">
+            <div class="blog__header">
+                <h2><span class="blog__header_title">BLOG</span></h2>
+                <img class="blog__header_image" src="img/icons-red-line.svg" alt="line">
+                <p class="blog__header_text">We share useful information about drones, their features, and selection
+                    criteria here.</p>
+            </div>
+            <div class="blog__main">
+                <span class="blog__main_text"> No blog posts yet...</span>
+            </div>
+            <div class="blog__footer">
+                <a class="blog__footer_button" href="#">READ MODE</a>
+            </div>
+        </div>
+    </section>
+    <!-- 8 block -->
+
+    <!--Vladyslav Siverskiy-->
+    <section class="review">
+        <div class="review__block">
+            <img class="review__image" src="img/customer_photo_dan-holmes.png" alt="customer photo">
+            <div class="review__content">
+                <h2 class="review__title">OUR CUSTOMERS SAY</h2>
+                <p class="review__text">I run a
+                    YouTube channel. I was thinking about buying a drone, but then I realized that it was
+                    unprofitable. Renting a drone at Striker Drones is much more convenient and cheaper. The quality
+                    of the video shot on drone cameras is always excellent.</p>
+                <span class="review__author">Dan Holmes</span>
+                <div class="review__change-buttons">
+                    <button class="review__change-button"></button>
+                    <button class="review__change-button"></button>
+                    <button class="review__change-button"></button>
+                </div>
+            </div>
+        </div>
+        <div class="review__block">
+            <img class="review__image" src="img/customer_photo_mike-felps.png" alt="customer photo">
+            <div class="review__content">
+                <h2 class="review__title">OUR CUSTOMERS SAY</h2>
+                <p class="review__text">I have already used the drone rental services at Striker Drones 10 times. They
+                    have a large selection of devices necessary for my purposes. In addition, they offer very pleasant
+                    rates,
+                    and you can always extend your drone rental by as much as you need.</p>
+                <span class="review__author">Mike Felps</span>
+                <div class="review__change-buttons">
+                    <button class="review__change-button"></button>
+                    <button class="review__change-button"></button>
+                    <button class="review__change-button"></button>
+                </div>
+            </div>
+        </div>
+        <div class="review__block">
+            <img class="review__image" src="img/customer_photo_andrew-jackson.png" alt="customer photo">
+            <div class="review__content">
+                <h2 class="review__title">OUR CUSTOMERS SAY</h2>
+                <p class="review__text">Due to my work, I periodically need a drone. I use it 1-2 times a week. At
+                    first, I thought about buying a drone ,but I realized that it was very expensive. Striker Drones
+                    helped me out with this.
+                    I can always rent a necessary drone from an impressive rental fleet. </p>
+                <span class="review__author">Andrew Jackson</span>
+                <div class="review__change-buttons">
+                    <button class="review__change-button"></button>
+                    <button class="review__change-button"></button>
+                    <button class="review__change-button"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 9 block -->
+
+    <!--Mykola Petroliuk-->
+    <section class="faq__wrapper">
+        <div class="faq">
+            <div class="faq__header">
+                <h2><span>FAQ</span></h2>
+                <img src="img/icons-slesh.svg" alt="line">
+                <p>Do you have any questions? We will be happy to answer them! But first, look at the list of frequently
+                    asked questions.</p>
+            </div>
+            <div class="faq__main">
+                <div class="faq__card">
+                    <div class="faq__card_title">
+                        <h2>How to rent a drone in your company?</h2>
+                        <div class="faq__card_text">
+                            <p>It's very easy and takes a couple of minutes. Fill out an application on our website or
+                                contact us directly and specify which device you need.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__card">
+                    <div class="faq__card_title">
+                        <h2>Can I reserve the chosen drone for a specific date?</h2>
+                    </div>
+                    <div class="faq__card_text">
+                        <p>Of course. Our manager will contact you. You can specify the date and time, and your drone
+                            will be waiting for you.</p>
+                    </div>
+                </div>
+                <div class="faq__card">
+                    <div class="faq__card_title">
+                        <h2>I don’t know which drone I need. Will you help me choose?</h2>
+                    </div>
+                    <div class="faq__card_text">
+                        <p>Our experts will tell you which drones are best suited for your purposes. Tell us what you
+                            need a drone for, and we will find the best option.</p>
+                    </div>
+                </div>
+                <div class="faq__card">
+                    <div class="faq__card_title">
+                        <h2>
+                            What is the minimum rental period?</h2>
+                    </div>
+                    <div class="faq__card_text">
+                        <p>The minimum rental period for a drone is 1 week. After the end of this period, you can keep
+                            on renting or cancel the subscription.</p>
+                    </div>
+                </div>
+                <div class="faq__card">
+                    <div class="faq__card_title">
+                        <h2>How and when do I pay for the drone rental?</h2>
+                    </div>
+                    <div class="faq__card_text">
+                        <p>Before you pick up a drone at our office, you must pay in full. You can pay for our services
+                            in cash or by credit card.</p>
+                    </div>
+                </div>
+                <div class="faq__card">
+                    <div class="faq__card_title">
+                        <h2>What if there will appear any signs of use on the drone?</h2>
+                    </div>
+                    <div class="faq__card_text">
+                        <p>We want you to enjoy using drones products as though they were yours. We will clean small
+                            scratches and signs of use for free. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 10 block -->
+
+    <!-- 11 block -->
+    <!-- Illia Moskaliuk -->
+    <section class="contacts">
+        <div class="contacts__details">
+            <h2 class="contacts__header" >CONTACTS</h2>
+            <img class="contacts__image" src="img/divider_green.svg" alt="divider green">
+            <p class="contacts__paragrapg" >We will be happy to answer any questions and lend drones for any period.</p>
+            <div class="contacts__address">
+                <h3 class="adress__header">Address</h3>
+                <p class="adress__informatuon">412 Clifton Ave, San Jose, CA 95128, USA </p>
+            </div>
+            <div class="contacts__hours">
+                <h3 class="hours__title">Hours</h3>
+                <p class="hours__timework">Monday - Friday: 11 AM - 9 PM
+                    Saturday: 11 AM - 7 PM </p>
+            </div>
+            <div class="contacts__information">
+                <h3 class="contacts__title">Contacts</h3>
+                <a class="contacts__phone" href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                <a class="contacts__email" href="mailto:strikerdrones@email.com">strikerdrones@email.com</a>
+
+            </div>
+        </div>
+        <form action="https://formspree.io/f/mbjedvjw" method="post" class="class__form">
+           <label><input type="text" name="full name" placeholder="Enter your full name*" required></label>
+            <label for="input_phone"><input id="input_phone" type="tel" name="phone" placeholder="Enter your phone number*" required></label>
+            <label for="input_email"><input id="input_email" type="email" name="email" placeholder="Enter your email*" required></label>
+            <label for="input_message"><textarea id="input_message" name="message" cols="30" rows="10" placeholder="Enter your message"> </textarea></label>
+            <label for="input_submit"><input id="input_submit" type="submit" value="Request a quote"></label>
+
+        </form>
+
+    </section>
+    <!-- 11 block -->
+</main>
+
+<!-- Shtykalo Danylo -->
+<footer>
+    <div class="footer_logo">
+        <img
+                width="122"
+                src="./img/header_logo.svg"
+                alt="logo">
+        <div class="footer__navigation_block">
+            <nav class="footer__navigation_items">
+                <ul>
+                    <li><a href="#">About as</a
+                    ></li><!--#-->
+                    <li><a href="#">Drones</a
+                    ></li><!--#-->
+                    <li><a href="#">Gallery</a
+                    ></li><!--#-->
+                    <li><a href="#">Testimonials</a
+                    ></li><!--#-->
+                    <li><a href="#">Contacts us</a
+                    ></li><!--#-->
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    <p class="footer_text">All rights Reserved</p>
+    <p class="footer_text">© Created by team 3</p>
+</footer>
+<!-- 12 Block -->
 </body>
 
 </html>
