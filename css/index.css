@@ -1,3 +1,7 @@
 /*    Додаємо сюди свої css файли "@import url(file_name);"    */
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
