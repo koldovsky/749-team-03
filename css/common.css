@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap%27');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+
+    --font-color-black: #1C1D1E;
+    --font-color-gray: #515151;
+    --font-color-cyan: #0ad19d;
+    --font-family-header: 'Fjalla One', sans-serif;
+    --font-family-paragraph: 'Lato', sans-serif;
+
+
 }

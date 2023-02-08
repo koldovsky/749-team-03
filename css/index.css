@@ -1,3 +1,16 @@
 /*    Додаємо сюди свої css файли "@import url(file_name);"    */
-@import url(common.css);
+@import "common.css"; /* перепитатись у викладача різницю між дужками та лапками при імпорті */
+@import url(personal_css/header.css);
+@import url(personal_css/about.css);
+@import url(personal_css/advantages.css);
+@import url(personal_css/drones__needs.css);
+@import url(personal_css/drones__slider.css);
+/*  @import url(); 6й блок */
+@import url(personal_css/drones__rent.css);
+@import url(personal_css/blog.css);
+@import url(personal_css/review.css);
+@import url(personal_css/faq.css);
+@import url(personal_css/contacts.css);
+@import url(personal_css/footer.css);
+
 
