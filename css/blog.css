@@ -1,2 +1,109 @@
 /* Тут будуть стилі до блоку 8 */
 
+.blog__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+
+}
+
+.blog__header_title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-header);
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 1.632px;
+    margin-bottom: 25px;
+}
+
+.blog__image_wrap {
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.blog__header_image {
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    max-width: 570px;
+
+
+}
+
+.blog__header_text {
+    font-family: var(--font-family-paragraph);
+    font-size: 18px;
+    color: var(--font-color-gray);
+    text-align: center;
+    line-height: 28.8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.blog__main {
+    height: 450px;
+    border: 1px solid rgba(33, 39, 54, 0.12);
+    margin-bottom: 50px;
+
+
+}
+
+.blog__main-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 450px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-black);
+    -webkit-font-smoothing: antialiased;
+
+
+
+}
+.blog__footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.blog__footer__button{
+    width: 112px;
+    height: 50px;
+    background-color: #f52e62;
+    padding: 21px 19px 21px 19px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 12px;
+    font-family: var(--font-family-paragraph);
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .blog {
+        padding: 140px 24px 90px 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .blog {
+        padding: 105px 32px 110px 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog {
+        padding: 120px 40px 130px 40px;
+    }
+}
+
+
+
