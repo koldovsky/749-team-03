@@ -1,7 +1,7 @@
 /*   Тут будуть стилі до блоку 1 */
 
 .welcome__page{
-      background-image: url("/img/welcome_page_background_image.webp");
+      background-image: url("../img/welcome_page_background_image.webp");
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
