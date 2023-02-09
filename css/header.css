@@ -1,15 +1,80 @@
 /*   Тут будуть стилі до блоку 1 */
 
-.welcome__page{
-      background-image: url("../img/welcome_page_background_image.webp");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+.header__logo {
+  width: 122px;
 }
-.logo{
-  width: 100px;
+
+.navigation__items {
+  display: flex;
+  text-decoration: none;
+  font-family: var(--font-family-paragraph);
+  color: #fff;
+}
+
+.welcome__page {
+  background-image: url(../img/welcome_page_background_image.webp);
+}
+
+h1 {
+  font-family: var(--font-family-header);
+  font-size: 64px;
+}
+
+.info_block_paragraf {
+  font-size: 18px;
+  font-family: var(--font-family-header);
+  color: #000;
+}
+
+.green-left-slash {
+  width: 30%;
+  height: 8px;
+}
+
+@media (min-width: 770px) {
+  .green-left-slash {
+    width: 300px;
+  }
+}
+
+.navigation__items {
+  text-decoration: none;
+  color: var(--font-color-white);
+}
+
+.rent-button {
+  background-color: #f52e62;
+  width: 154px;
+  height: 59px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: var(--font-family-paragraph);
+  cursor: pointer;
+  margin: 10px;
+}
+.laern-more-buttom {
+  width: 143px;
+  height: 59px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: var(--font-family-paragraph);
+  border: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+  .navigation_buttoms {
+    display: flex;
+    
+  }
+
+@media (max-width: 370px) {
+  .navigation_buttoms {
+    display: flex;
+    flex-direction: column;
+
+  }
 }

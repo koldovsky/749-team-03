@@ -1,0 +1,571 @@
+[33mcommit 5e962f86ce5d976420fed635bd9a52b5afd2ef74[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Thu Feb 9 14:24:17 2023 +0200
+
+    .
+
+[33mcommit b8bd25365e62b481140cabcf88b21e8daab4fcab[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Thu Feb 9 12:14:29 2023 +0000
+
+    Modify 9 block html
+
+[33mcommit e2b37bb538a8802859d58e70cbfebfaf3942c72b[m
+Author: unknown <daniel.shtykalo777@gmail.com>
+Date:   Thu Feb 9 13:05:49 2023 +0100
+
+    added wight
+
+[33mcommit 95f26a97fd5e6852c84a161c42889eb024c09c22[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Thu Feb 9 13:40:48 2023 +0200
+
+    common.css added img container
+
+[33mcommit 851861520c427fc128f2c37affe99d5380a6e3f2[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Thu Feb 9 13:03:12 2023 +0200
+
+    fix picture
+
+[33mcommit 031bcdcfe9ee9f2ac62ecc483c65a49a04e5c86b[m
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Wed Feb 8 18:58:22 2023 +0000
+
+    changed classes
+
+[33mcommit 59638c3bd726891b2c97acb2ac4e7f08c1f1c896[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Wed Feb 8 17:12:11 2023 +0000
+
+    added icon
+
+[33mcommit c5485dd401f9e81c5254fbef1237257aa43ce403[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Wed Feb 8 16:36:52 2023 +0000
+
+    changed drones names (again)
+
+[33mcommit e601a0a84015f3bfbc11c1f7161dffffc1590ea6[m
+Merge: ea5a137 7d2f99b
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Wed Feb 8 16:33:28 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit ea5a1371a43510e7c9e80869337157eeb115d51a[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Wed Feb 8 16:32:22 2023 +0000
+
+    changed photo names
+
+[33mcommit 7d2f99bd94503068a220da6bbd6dafc78faa8ecc[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Wed Feb 8 18:29:09 2023 +0200
+
+    fixed logo and drones section
+
+[33mcommit ab167c56aa9caf3f4d1cf6aa57844ead0a2d912c[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Wed Feb 8 16:13:02 2023 +0000
+
+    changes after review. CSS Files, Alt,comments.
+
+[33mcommit 0461266451e40d8e5475ae6eaa5c688cde1b0392[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Wed Feb 8 14:05:25 2023 +0200
+
+    fixed pictures
+
+[33mcommit 8b54e5566c596cb750b41eaf31efd9256ec61ab4[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Wed Feb 8 14:01:31 2023 +0200
+
+    Added styles files. Renamed photos. Fixed class names in index
+
+[33mcommit 4967debaee50e31ca5950bca4df573ae01657e77[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Wed Feb 8 12:49:38 2023 +0200
+
+    added common
+
+[33mcommit 6b6334be8fc8eb85466a2c7bac0987a4488a4627[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Wed Feb 8 12:40:24 2023 +0200
+
+    based margin padding and link to html file
+
+[33mcommit 5ca606dde9880acc05c44b9a2117e7a39ff4ac57[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Wed Feb 8 12:12:54 2023 +0200
+
+    css folder + index.css
+
+[33mcommit 1945ed8316ca929985896b6efc5fc5ae6c3619ab[m
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Tue Feb 7 19:55:25 2023 +0000
+
+    Add ul for phone and email
+
+[33mcommit dd5e91bd9fd2585538feaa5dbafb43b18ed5c511[m
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Tue Feb 7 19:48:37 2023 +0000
+
+    change paragraph
+
+[33mcommit 186df770b61c4066d982bc3c86e6fe55649bacf2[m
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Tue Feb 7 13:30:44 2023 +0000
+
+    change name class block two
+
+[33mcommit 0f035bf76e27923de75b54807f39e78bfa28b991[m
+Merge: e457640 eac1425
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Tue Feb 7 12:58:03 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit e457640956ec8c78a2d5f55323741ee3834a6c53[m
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Mon Feb 6 18:29:01 2023 +0000
+
+    update info
+
+[33mcommit eac1425027d219c2313c64bd8b017e0306f7bc9f[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Mon Feb 6 18:09:22 2023 +0000
+
+    Change photo names
+
+[33mcommit f723ec5ef71a768737bd77e015cc5c43d406f611[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 17:56:25 2023 +0200
+
+    removed "px" from <img> in 2 block
+
+[33mcommit 6c370d5792e5ec6a83ab93218f258f5177126be1[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Mon Feb 6 17:50:30 2023 +0200
+
+    updated comments
+
+[33mcommit 754066d5db1de3f996036df0a8253b67f2c29136[m
+Author: Volodymyr Feduniv <57459268+NerXXXy@users.noreply.github.com>
+Date:   Mon Feb 6 17:40:47 2023 +0200
+
+    updated comments
+
+[33mcommit 010c2f4f28bfe0b20ab1816cd832649e38e08078[m
+Author: Okan Ivan <97066414+okanivan@users.noreply.github.com>
+Date:   Mon Feb 6 13:56:02 2023 +0000
+
+    Change weight
+
+[33mcommit ec12b5ccde3017a35868ac07561dda7cbac67085[m
+Author: Okan Ivan <97066414+okanivan@users.noreply.github.com>
+Date:   Mon Feb 6 13:42:08 2023 +0000
+
+    Update Block 3
+
+[33mcommit 3a81bf6ef17596dce13b7338eed338a584096733[m
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Mon Feb 6 13:12:10 2023 +0000
+
+    apdated block
+
+[33mcommit 44b6bdaa59b1d67a2e50be8a9fceaf05450921b1[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Mon Feb 6 15:02:17 2023 +0200
+
+    Add lost pictures
+
+[33mcommit a1b7bebb1f90bfcc22d70fc3ba988dae4df19637[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 15:01:54 2023 +0200
+
+    version with comments
+
+[33mcommit 8ca5eedad7d4d198463c0eab5a4e720e8d8af604[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 14:39:05 2023 +0200
+
+    right version
+
+[33mcommit 873ccb8efff3bb509e22f7a3e0902247e6d2f627[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 14:30:39 2023 +0200
+
+    right version
+
+[33mcommit 0ffc6a004fd8605cc8fe13b9aaa4621f18ec88b3[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 14:27:35 2023 +0200
+
+    restart
+
+[33mcommit 0ce686dcfaf66182afddc5e685761803d7cbdb90[m
+Merge: 39fcedb 51a9999
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 14:24:29 2023 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 39fcedbe59966d5a142b6bb245c5cdaa14e0592e[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Mon Feb 6 14:12:31 2023 +0200
+
+    Revert "added 1 block (Shtykalo Danylo)"
+    
+    This reverts commit 851edc7a05d5400799f7d1c65acb5973bde24493.
+
+[33mcommit 51a99995e55b869dd1edabb2cacd382fb35dd22c[m
+Merge: fab3ace 6b6ad9e
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Sun Feb 5 18:18:55 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit fab3ace02fe778a19655576049a42923b5aa8f76[m
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Sun Feb 5 18:16:08 2023 +0000
+
+    Add information in 11 block
+
+[33mcommit 6b6ad9ea8b870e17328632afb4f689e68f0f0baa[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sun Feb 5 20:06:11 2023 +0200
+
+    added footer
+
+[33mcommit 1bb51c16fb70194ebdd34d4b4ac38082166df0e2[m
+Merge: 6e210f6 851edc7
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Sun Feb 5 17:53:54 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit 6e210f6045a50b653e993361d38dbd76b6830ee7[m
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Sun Feb 5 17:50:30 2023 +0000
+
+    Fixed mistakes in 11 block
+
+[33mcommit 851edc7a05d5400799f7d1c65acb5973bde24493[m
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Sun Feb 5 17:39:37 2023 +0000
+
+    added 1 block (Shtykalo Danylo)
+
+[33mcommit ab667376a950c9d1d8f52651d80121a295b5452b[m
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Sun Feb 5 17:36:38 2023 +0000
+
+    added 1 block (Shtykalo Danylo)
+
+[33mcommit c3981257e0db1fafc0ca42a1a7102fb39db0c353[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sun Feb 5 19:13:06 2023 +0200
+
+    sorted version
+
+[33mcommit 31ca57f6e58abbb9c9bb978e3e0d5daab2247673[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 15:41:15 2023 +0000
+
+    update img in 4 block
+
+[33mcommit 5df9712a318f16835fa1ccff310d322321c09760[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 15:39:26 2023 +0000
+
+    update divider in 4 block
+
+[33mcommit f7d05921a99c307dfd6ed735c8d6ff9820f1e78b[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 14:13:26 2023 +0000
+
+    update img in 7 block
+
+[33mcommit c2ef8f8c7b0a4c4fc74d00a46757df2fd825838f[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 14:09:16 2023 +0000
+
+    Add 7 block
+
+[33mcommit c8db92e3d284897ea5300be56aaefd3d13ab9006[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 13:46:59 2023 +0000
+
+    add some classes to 4 block
+
+[33mcommit 6a4fc6f39fe1e0d6516cfffe65425df24b2d58c6[m
+Merge: 77eceb8 e02fae8
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 13:18:33 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit 77eceb846caa382475fbb24db5b6c0a9ad4c48f8[m
+Merge: cd0cc5f d58e5ae
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 13:18:25 2023 +0000
+
+    Add 4 block
+
+[33mcommit e02fae8db4b1fc7190b9648fe25200afb06f4c0a[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sun Feb 5 13:17:42 2023 +0000
+
+    Change order of blocks
+
+[33mcommit cd0cc5fd48f23414174dab11e64f43409ef02dcc[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Sun Feb 5 13:04:15 2023 +0000
+
+    adding section
+
+[33mcommit d58e5ae11f14dde90ff23c5afcee66f3cf0ea53e[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Sun Feb 5 14:55:14 2023 +0200
+
+    Eugene html block
+
+[33mcommit 2a882cac8717ac7f89afcc284c86b62ad67b5210[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Sun Feb 5 14:51:20 2023 +0200
+
+    Eugene html block
+
+[33mcommit d441da0e0036bd932e422611ccd944b6c7d31a79[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sun Feb 5 12:17:51 2023 +0000
+
+    Update
+
+[33mcommit ac08605b0f2c6dc87cf6acaa5406ffcd356ed74a[m
+Author: Muka4 <samsung948@gmail.com>
+Date:   Sat Feb 4 16:04:47 2023 +0200
+
+    added line
+
+[33mcommit d61957d255a45e7c4884685474d507f20ca7ced6[m
+Author: Muka4 <samsung948@gmail.com>
+Date:   Sat Feb 4 16:03:18 2023 +0200
+
+    added block 10
+
+[33mcommit 54415bbb369b3cedfdd58c804240e18f1b5902a2[m
+Author: Muka4 <samsung948@gmail.com>
+Date:   Sat Feb 4 15:14:53 2023 +0200
+
+    Update
+
+[33mcommit f35fa1e2d27e49d4f431746afda0eef87f81ff6e[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Sat Feb 4 14:49:17 2023 +0200
+
+    Formatted by Zhenya
+
+[33mcommit b588757ad1f69860e766dcd6775fd56dcd59292d[m
+Author: Anisimov_Eugene <zhecky2004@gmail.com>
+Date:   Sat Feb 4 14:47:37 2023 +0200
+
+    Zhenya's comment
+
+[33mcommit aa5d599edb35214cb9618194585869fda2417a52[m
+Author: Okan Ivan <97066414+okanivan@users.noreply.github.com>
+Date:   Sat Feb 4 12:11:10 2023 +0000
+
+    Update
+
+[33mcommit aea215cf9668514c527775fe9079e760422438aa[m
+Merge: 08f0c72 ca43f25
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 13:07:14 2023 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 08f0c72febfc3673139e54c33194c16302666acb[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 13:06:41 2023 +0200
+
+    added photos of drones
+
+[33mcommit ca43f252a68e395f7ad628a38ce51fd738729d4c[m
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Sat Feb 4 11:06:26 2023 +0000
+
+    Add 11 block
+
+[33mcommit bbb7f2f6e49b41a12b2b41834f67fb06cb5f05eb[m
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Sat Feb 4 11:03:18 2023 +0000
+
+    added photo
+
+[33mcommit 24ca7fb48f1c68e6795c4ea5b5fabb75a5d9c154[m
+Merge: 7161802 4aa3f0e
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Sat Feb 4 11:00:25 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit 71618022776428dfc05d0b0ad5fdfcd559c6fca5[m
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Sat Feb 4 11:00:08 2023 +0000
+
+    added 2 block
+
+[33mcommit 4aa3f0e38b1438f05eb8475256919c8f09d84a0b[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 12:07:10 2023 +0200
+
+    added photos of drones
+
+[33mcommit 3e995fc01bbdf4a471abf536b0d845b9baff6db3[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 12:06:46 2023 +0200
+
+    block 5 HTML ready
+
+[33mcommit 404976fd5f2b0b34567de8ab26f4912dd2a420c4[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 11:26:10 2023 +0200
+
+    added photos for 5 block
+
+[33mcommit 6227d7097701f0dfacebf45c4e75ae2d07758dbb[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 11:02:07 2023 +0200
+
+    updated
+
+[33mcommit 9f819cbe3d88dcd5ddaab2babbdf37c84d03dd3e[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 10:47:23 2023 +0200
+
+    updated
+
+[33mcommit 02ab464a8a3db5027d48cdc81c557e40b13cbeec[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sat Feb 4 08:44:59 2023 +0000
+
+    Updated
+
+[33mcommit ab5e68e4107a698ef60012a21de817f7e9b3e04f[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sat Feb 4 08:42:09 2023 +0000
+
+    Updated
+
+[33mcommit dfde7f4046909748dad9d1fc12150293e9d81c49[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sat Feb 4 08:35:25 2023 +0000
+
+    Add section
+
+[33mcommit 77de9eead35d6aafe40bfcf66361eec6c370b170[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 10:30:20 2023 +0200
+
+    added directory
+
+[33mcommit bea475a958c73c3aa3f582b629dfb4098e17f97d[m
+Merge: 4faffec ce99e3b
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 10:29:53 2023 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 4faffecf20c948e81dc9f0d640cebbd78ae1689a[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 10:29:41 2023 +0200
+
+    added directory
+
+[33mcommit ce99e3b46488482faf029d07cd3b922f6e499c58[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sat Feb 4 08:27:51 2023 +0000
+
+    updated
+
+[33mcommit 7a897a0bc59a1bea570b2583c8c2b083de66aa53[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Sat Feb 4 08:25:06 2023 +0000
+
+    Add img folder
+
+[33mcommit 590b65fac5e28d5f17599a0c7a69ffe7355a675f[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 09:35:33 2023 +0200
+
+    updated
+
+[33mcommit e46251ed92bf8b7d3fd4c2eeeb47f5b43c59051e[m
+Author: nerxxxy <nerxxxxy@gmail.com>
+Date:   Sat Feb 4 09:28:34 2023 +0200
+
+    updated
+
+[33mcommit 38848427bc08bbf546841edd2449e6ebed67859b[m
+Author: hopeei <123482031+hopeei@users.noreply.github.com>
+Date:   Sat Feb 4 07:19:47 2023 +0000
+
+    update
+
+[33mcommit 193c1b03dcc894f5cfdfe318067f0b48ab076080[m
+Merge: 387c6c3 6f62246
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Fri Feb 3 19:32:30 2023 +0000
+
+    last name
+
+[33mcommit 387c6c33b07da148fc7a3fd238f75dd143b6d8cb[m
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Fri Feb 3 19:27:08 2023 +0000
+
+    last name
+
+[33mcommit 6f622466535738e527987ea8fd7279f84685d404[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Fri Feb 3 19:26:52 2023 +0000
+
+    change string
+
+[33mcommit 69da783407c70a915562ac28367629eb3c1fb7a6[m
+Merge: 958a2df 804b76e
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Fri Feb 3 19:21:52 2023 +0000
+
+    Merge branch 'main' of https://github.com/koldovsky/749-team-03 into main
+
+[33mcommit 958a2dfd856fb5f420cdcf71f1e5a745ecb10d4b[m
+Author: innocentbro <122611767+innocentbro@users.noreply.github.com>
+Date:   Fri Feb 3 19:21:26 2023 +0000
+
+    Last name
+
+[33mcommit 804b76e2a58e4363a739884d7d0b467555d035d2[m
+Author: Illia-Oleksandr <117120959+Illia-Oleksandr@users.noreply.github.com>
+Date:   Fri Feb 3 19:20:25 2023 +0000
+
+    add me
+
+[33mcommit 34bac94306422133ba7beca84bf9cf1526b9c69a[m
+Author: Vladislav Siverskiy <79045792+vsiver@users.noreply.github.com>
+Date:   Fri Feb 3 19:11:20 2023 +0000
+
+    Vladyslav Siverskiy commit
+
+[33mcommit 17b3e60e9f211642e47d0e3c8ad80d00b4a51534[m
+Author: Dmytro Gavrylov <110348020+Digaver91@users.noreply.github.com>
+Date:   Fri Feb 3 19:04:09 2023 +0000
+
+    name comment
+
+[33mcommit 6732c97e2cd3724e2cde896fd3de2c3e05e82d72[m
+Author: Vyacheslav Koldovskyy <koldovsky@koldovsky.com>
+Date:   Fri Feb 3 14:11:09 2023 +0200
+
+    Initial commit
