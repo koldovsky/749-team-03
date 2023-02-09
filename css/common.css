@@ -7,13 +7,20 @@
     box-sizing: border-box;
 }
 
-:root{
-
+:root {
     --font-color-black: #1C1D1E;
     --font-color-gray: #515151;
     --font-color-cyan: #0ad19d;
     --font-family-header: 'Fjalla One', sans-serif;
     --font-family-paragraph: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
+img {
+    display: block;
 }
