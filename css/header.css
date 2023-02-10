@@ -7,7 +7,6 @@
 .navigation__items {
     display: flex;
     text-decoration: none;
-    font-family: var(--font-family-paragraph);
     color: #fff;
 }
 
@@ -49,7 +48,6 @@ h1 {
     text-align: center;
     font-size: 13px;
     color: #fff;
-    font-family: var(--font-family-paragraph);
     cursor: pointer;
     margin: 10px;
 }
@@ -60,7 +58,6 @@ h1 {
     text-align: center;
     font-size: 13px;
     color: #fff;
-    font-family: var(--font-family-paragraph);
     border: #fff;
     cursor: pointer;
     margin: 10px;
