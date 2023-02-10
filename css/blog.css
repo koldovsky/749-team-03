@@ -10,8 +10,6 @@
 }
 
 .blog__header_title {
-    display: flex;
-    justify-content: center;
     font-family: var(--font-family-header);
     font-weight: 400;
     font-size: 34px;
@@ -61,16 +59,17 @@
     -webkit-font-smoothing: antialiased;
 
 
-
 }
-.blog__footer__container{
+
+.blog__footer__container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
 }
-.blog__footer__button{
+
+.blog__footer__button {
     width: 112px;
     height: 50px;
     background-color: #f52e62;
@@ -84,7 +83,6 @@
     font-family: var(--font-family-paragraph);
     font-weight: 700;
 }
-
 
 
 @media (min-width: 0px) and (max-width: 767px) {
