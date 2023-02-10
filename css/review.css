@@ -1,16 +1,15 @@
-
 .review {
-    background-color: #f0f0f0;
+    background-color: var(--font-color-bright-gray);
     padding: 90px 0 106px 0;
     margin: 0;
     overflow-x: hidden;
 }
 
-.review__block.hide {
+.review__content.hide {
     display: none;
 }
 
-.review__block {
+.review__content {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,7 +31,7 @@
     width: auto;
 }
 
-.review__block img {
+.review__image {
     margin-top: 45px;
     object-fit: cover;
     object-position: 0% 13.189%;
@@ -42,9 +41,8 @@
 }
 
 
-.review__content {
-    /*2.створти ще змінну*/
-    background-color: #ffffff;
+.review__comment {
+    background-color: var(--font-color-white);
     padding: 55px 23px 35px 23px;
 }
 
@@ -95,9 +93,19 @@
     border-radius: 50%;
 }
 
+
+.review__change-button:hover {
+    opacity: 1;
+}
+
+
+.review__change-button.active:hover {
+    opacity: 0.75;
+}
+
 @media (min-width: 768px) {
 
-    .review__block {
+    .review__content {
         display: grid;
         max-height: 519px;
         grid-template-columns: 1fr 1fr;
@@ -108,23 +116,23 @@
             "photo info";
     }
 
-    .review__block>.review__image {
+    .review__content>.review__image {
         min-height: 100%;
         margin: 0;
         grid-area: photo;
     }
 
-    .review__block .review__content {
+    .review__content .review__comment {
         grid-area: info;
         padding: 28px 41px 28px 41px;
     }
 
-    .review__block .review__title {
+    .review__content .review__title {
         padding: 45px 41px 0 41px;
         line-height: 48.1px;
         font-size: 37px;
         grid-area: header;
-        background-color: #ffffff;
+        background-color: var(--font-color-white);
     }
 
     .review__author {
@@ -133,14 +141,11 @@
     }
 }
 
+
+
 @media (min-width: 992px) {
     .review {
         padding-left: 40px;
         padding-right: 40px;
-    }
-
-    .review__block {
-        margin: auto;
-        max-width: 1170px;
     }
 }
