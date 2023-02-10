@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -14,9 +15,7 @@
     --font-color-bright-gray: #f0f0f0;
     --font-color-white: #fff;
     --font-family-header: 'Fjalla One', sans-serif;
-    --font-family-paragraph: 'Lato', sans-serif;
     scroll-behavior: smooth;
-    
 }
 
 .container {
