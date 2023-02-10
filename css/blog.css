@@ -32,7 +32,6 @@
 }
 
 .blog__header_text {
-    font-family: var(--font-family-paragraph);
     font-size: 18px;
     color: var(--font-color-gray);
     text-align: center;
@@ -54,7 +53,6 @@
     line-height: 450px;
     font-size: 24px;
     font-weight: 600;
-    font-family: var(--font-family-paragraph);
     color: var(--font-color-black);
     -webkit-font-smoothing: antialiased;
 
@@ -80,7 +78,6 @@
     cursor: pointer;
     text-align: center;
     line-height: 12px;
-    font-family: var(--font-family-paragraph);
     font-weight: 700;
 }
 
