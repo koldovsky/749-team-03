@@ -43,8 +43,6 @@
     height: 450px;
     border: 1px solid rgba(33, 39, 54, 0.12);
     margin-bottom: 50px;
-
-
 }
 
 .blog__main-text {
@@ -55,8 +53,6 @@
     font-weight: 600;
     color: var(--font-color-black);
     -webkit-font-smoothing: antialiased;
-
-
 }
 
 .blog__footer__container {
@@ -64,7 +60,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .blog__footer__button {
