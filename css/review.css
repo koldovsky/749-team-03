@@ -1,1 +1,146 @@
-/* Тут будуть стилі до блоку 9 */
+
+.review {
+    background-color: #f0f0f0;
+    padding: 90px 0 106px 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.review__block.hide {
+    display: none;
+}
+
+.review__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.review__title {
+    font-family: var(--font-family-header);
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: 1.65px;
+    color: var(--font-color-black);
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    width: auto;
+}
+
+.review__block img {
+    margin-top: 45px;
+    object-fit: cover;
+    object-position: 0% 13.189%;
+    max-height: 250px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+.review__content {
+    /*2.створти ще змінну*/
+    background-color: #ffffff;
+    padding: 55px 23px 35px 23px;
+}
+
+
+.review__text {
+    text-align: center;
+    color: var(--font-color-gray);
+    font-family: var(--font-family-paragraph);
+    font-size: 18px;
+    overflow-wrap: break-word;
+    line-height: 28.8px;
+}
+
+.review__author {
+    margin-top: 28px;
+    font-family: var(--font-family-header);
+    font-size: 22px;
+    color: var(--font-color-black);
+    display: block;
+    text-align: center;
+}
+
+.review__change-buttons {
+    width: 95px;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.review__change-button.active {
+    background-color: var(--font-color-black);
+    opacity: 0.75;
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    border-radius: 50%;
+}
+
+
+.review__change-button {
+    background-color: var(--font-color-black);
+    opacity: 0.25;
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+
+    .review__block {
+        display: grid;
+        max-height: 519px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "photo header"
+            "photo info"
+            "photo info"
+            "photo info";
+    }
+
+    .review__block>.review__image {
+        min-height: 100%;
+        margin: 0;
+        grid-area: photo;
+    }
+
+    .review__block .review__content {
+        grid-area: info;
+        padding: 28px 41px 28px 41px;
+    }
+
+    .review__block .review__title {
+        padding: 45px 41px 0 41px;
+        line-height: 48.1px;
+        font-size: 37px;
+        grid-area: header;
+        background-color: #ffffff;
+    }
+
+    .review__author {
+        font-size: 23px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .review {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .review__block {
+        margin: auto;
+        max-width: 1170px;
+    }
+}
