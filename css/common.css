@@ -14,6 +14,8 @@
     --font-color-cyan: #0ad19d;
     --font-color-bright-gray: #f0f0f0;
     --font-color-white: #fff;
+    --font-color-light-gray: #C5C5C5;
+    --font-color-green: #0AD19D;
     --font-family-header: 'Fjalla One', sans-serif;
     --font-family-paragraph: 'Lato', sans-serif;
     scroll-behavior: smooth;
