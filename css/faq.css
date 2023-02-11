@@ -19,7 +19,7 @@
     align-items: center;
 }
 .subtitle-text {
-    color: #ffffff; !important;
+    color: #ffffff;
     font-family: var(--font-family-paragraph);
     font-size: 18px;
 }
