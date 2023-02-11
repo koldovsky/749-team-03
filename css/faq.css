@@ -6,14 +6,17 @@
 .faq {
     padding: 90px 0 90px 0;
 }
-.faq__body_main{
+
+.faq__body_main {
     padding: 0 24px;
 }
+
 .faq__container {
     font-size: 34px;
     font-family: var(--font-family-header);
     line-height: 1.7rem;
 }
+
 .faq__header {
     color: white;
     display: flex;
@@ -22,21 +25,25 @@
     flex-direction: column;
     align-items: center;
 }
+
 .subtitle-text {
     color: #ffffff;
     font-family: var(--font-family-paragraph);
     font-size: 18px;
 
 }
+
 .faq__main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     /*padding: 0 24px;*/
 }
+
 .faq__card_item {
     padding: 31px 27px 31px 27px;
 }
+
 .faq__main-text {
     color: #ffffff;
     text-align: left;
@@ -44,6 +51,7 @@
     font-family: var(--font-family-header);
 
 }
+
 .faq__text {
     color: #c5c5c5;
     margin-top: 20px;

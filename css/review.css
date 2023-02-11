@@ -116,7 +116,7 @@
             "photo info";
     }
 
-    .review__content>.review__image {
+    .review__content > .review__image {
         min-height: 100%;
         margin: 0;
         grid-area: photo;
@@ -140,7 +140,6 @@
         margin-bottom: 45px;
     }
 }
-
 
 
 @media (min-width: 992px) {
