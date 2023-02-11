@@ -123,6 +123,6 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 0;
     background: var(--font-color-green);
+    border: 0;
 }
