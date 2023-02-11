@@ -1,2 +1,128 @@
-/* Тут будуть стилі до блоку 5 */
+.drones__section_wrapper {
+    background-image: url("../img/background_black.png");
+    padding: 90px 0 90px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+.drones__section {
+    padding: 0 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.drones__header_wrapper {
+    text-align: center;
+}
+
+.drones__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 207px;
+    margin-top: 50px;
+    padding: 0 15px 0 15px;
+    justify-content: space-between;
+}
+
+.drones__header_title {
+    font-family: var(--font-family-header);
+    color: var(--font-color-white);
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.drones__header_image {
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    max-width: 570px;
+    width: 30%;
+}
+
+.drones__header_text {
+    font-size: 18px;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-white);
+    height: 90px;
+}
+
+.drones__slider {
+    padding: 0 15px 0 15px;
+}
+
+.menu_image {
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    max-width: 570px;
+    width: 30%;
+}
+
+.card__title {
+    font-size: 22px;
+    font-family: var(--font-family-header);
+    color: var(--font-color-white);
+}
+
+.card__title_cyan {
+    color: var(--font-color-cyan);
+}
+
+.card__image {
+    margin-bottom: 25px;
+}
+
+.card__menu {
+    margin-top: 40px;
+}
+
+.menu_image {
+    margin-top: 40px;
+}
+
+.menu__upper {
+    display: flex;
+    color: var(--font-color-light-gray);
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.menu__upper_text {
+    font-family: var(--font-family-paragraph);
+}
+
+.menu__dropdown {
+    font-family: var(--font-family-paragraph);
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu__dropdown_item {
+    color: var(--font-color-light-gray);
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.slider__dots {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.drones__slider_buttons {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 0;
+    background: var(--font-color-green);
+}
