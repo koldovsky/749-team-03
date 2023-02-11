@@ -1,2 +1,64 @@
 /* Тут будуть стилі до блоку 10 */
+.faq__wrapper {
+    background-image: url("../img/background_black.png");
+}
 
+.faq {
+    padding: 90px 0 90px 0;
+}
+.faq__container{
+    font-size: 34px;
+    font-family: var(--font-family-header);
+}
+.faq__header {
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    padding: 0 15px 0 15px;
+    flex-direction: column;
+    align-items: center;
+}
+.w-display-textblock{
+    display: block;
+}
+.subtitle-text{
+    color: #ffffff; !important;
+    font-family: var(--font-family-paragraph);
+    font-size:18px;
+}
+.img__slasher{
+    text-align: center;
+}
+.faq__main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 24px;
+}
+.faq__card_item{
+    padding: 31px 27px 31px 27px;
+}
+.faq__main-text {
+    color: #ffffff;
+    text-align: left;
+}
+
+.faq__text {
+    color: #c5c5c5;
+    margin-top: 20px;
+    font-family: var(--font-family-header);
+}
+
+.faq__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-top: 50px;
+}
+
+
+/*.faq__card_title{*/
+/*    font-family: var(--font-family-header);*/
+/*    color: var(--font-color-white);*/
+/*}*/
