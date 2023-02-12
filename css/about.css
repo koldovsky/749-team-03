@@ -1,1 +1,192 @@
-/* Тут будуть стилі до блоку 2 */
+.about {
+    background-image: url("../img/background_black.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: -15px;
+    margin-right: -15px;
+   box-sizing: border-box;
+}
+
+.about__drones-photo {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about__drone-striker {
+    font-size: 37px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.about__title {
+    font-family: var(--font-family-header);
+    font-size: 34px;
+    color: var(--font-color-white);
+    margin-top: 50px;
+}
+
+.about__slash {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    margin-bottom: 20px;
+    font-family: var(--font-family-paragraph);
+    font-size: 18px;
+    color: var(--font-color-white);
+    display: block;
+    
+}
+
+.about__slogo {
+    padding-bottom: 25px;
+    font-family: var(--font-family-paragraph);
+    font-size: 16px;
+    color: var(--font-color-light-gray);
+    display: block;
+}
+
+
+.about__addition {
+    margin-top: 25px;
+}
+
+.about__numbers {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__content {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-cyan);
+}
+
+.about__available {
+    font-size: 25px;
+    font-family: var(--font-family-header);
+    color: var(--font-color-white);
+}
+
+.about__rent {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__avon {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-cyan);
+}
+
+.about__models {
+    font-size: 25px;
+    font-family: var(--font-family-header);
+    color: var(--font-color-white);
+}
+.about__offer {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__tens {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-cyan);
+}
+
+.about__clients {
+    font-size: 25px;
+    font-family: var(--font-family-header);
+    color: var(--font-color-white);
+}
+@media(min-width: 768px) {
+    .about {
+        display: flex;
+        padding-top: 105px;
+        padding-bottom: 105px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+        align-items: center;
+    }
+    .about__title {
+        margin-top: 0px;
+    }
+
+    .about__drones-photo {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .about__drone-striker {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .about__text {
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .about__slogo {
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .about__numbers {
+        flex-direction: row;
+        width: 70%;
+    }
+    .about__content {
+        justify-content: space-around;
+        flex: 1;
+    }
+    .about__available {
+        justify-content: space-around;
+        flex: 3;
+    }
+    .about__rent {
+        flex-direction: row;
+    }
+    .about__avon {
+        justify-content: space-around;
+        flex: 1;
+    }
+    .about__models {
+        justify-content: space-around;
+        flex: 3;
+    }
+    .about__offer {
+        flex-direction: row;
+    }
+    .about__tens {
+        justify-content: space-around;
+        flex: 1;
+    }
+    .about__clients {
+        justify-content: space-around;
+        flex: 3;
+    }
+}
