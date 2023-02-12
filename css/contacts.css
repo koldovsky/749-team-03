@@ -1,9 +1,9 @@
 /* Тут будуть стилі до блоку 11 */
 .contacts {
     width: 805.6px;
-    }
-    
-    .contacts__details {
+}
+
+.contacts__details {
     box-sizing: border-box;
     display: flex;
     flex-basis: 100%;
@@ -15,35 +15,5 @@
     text-align: left;
     vertical-align: baseline;
     width: 440px;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    -webkit-box-pack: center;
-    }
+}
     
-    .contacts__header {
-    font-size: 34px;
-    letter-spacing: 1.632px;
-    font-family: Fjalla One, sans-serif;
-    }
-    
-    .contacts__image {
-    width: 227.19px;
-    }
-    
-    .contacts__paragraph {
-    font-size: 18px;
-    line-height: 28,8px;
-    }
-
-    #input_email {
-        width: 220.6px;
-        }
-        
-        #input_message {
-        font-size: 12px;
-        
-        }
-        
-        #input_submit {
-        font-weight: 700;
-        }
