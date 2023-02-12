@@ -2,7 +2,8 @@
 
 .header__logo {
     width: 122px;
-    padding: 10, 0, 30, 10;
+    padding-top : 10px;
+    padding-left: 10px;
   }
   
   .navigation__items {
