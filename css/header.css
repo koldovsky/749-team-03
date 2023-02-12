@@ -2,6 +2,7 @@
 
 .header__logo {
     width: 122px;
+    padding: 10, 0, 30, 10;
   }
   
   .navigation__items {
@@ -19,6 +20,8 @@
     font-size: 18px;
     font-family: var(--font-family-header);
     color: var(--font-color-white);
+    padding-top: 20px;
+    padding-left: 10px;
   }
   
   .green-left-slash {
@@ -101,6 +104,9 @@
     font-family: var(--font-family-header);
     font-size: 64px;
     color: var(--font-color-white);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   
   .colorful_button {
