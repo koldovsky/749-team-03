@@ -8,7 +8,7 @@
     display: flex;
     text-decoration: none;
     font-family: var(--font-family-paragraph);
-    color: #fff;
+    color: var(--font-color-white);
   }
   
   .welcome__page {
@@ -18,7 +18,7 @@
   .info_block_paragraf {
     font-size: 18px;
     font-family: var(--font-family-header);
-    color: #000;
+    color: var(--font-color-white);
   }
   
   .green-left-slash {
@@ -42,7 +42,7 @@
     height: 59px;
     text-align: center;
     font-size: 13px;
-    color: #fff;
+    color: var(--font-color-white);
     font-family: var(--font-family-paragraph);
     cursor: pointer;
     margin: 10px;
@@ -53,9 +53,9 @@
     height: 59px;
     text-align: center;
     font-size: 13px;
-    color: #fff;
+    color: var(--font-color-white);
     font-family: var(--font-family-paragraph);
-    border: #fff;
+    border: var(--font-color-white);
     cursor: pointer;
     margin: 10px;
   }
@@ -92,7 +92,7 @@
     line-height: 19px;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: var(--font-color-white);
   }
   .welcome__info_block {
     display: block;
@@ -128,7 +128,7 @@
     height: 61.19px;
     border-radius: 0;
     border-width: 1px;
-    border-color: #fff;
+    border-color: var(--font-color-white);
     border-style: solid;
     padding: 20px;
     margin: 10px;
