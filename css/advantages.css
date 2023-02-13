@@ -53,6 +53,7 @@ p{
 .line_icon {
     width: 190px;
 }
+}
 @media (min-width: 625px){
 .line_icon {
     width: 230px;
