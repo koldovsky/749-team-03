@@ -1,10 +1,7 @@
 /* Тут будуть стилі до блоку 3 */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
 .container{
 	max-width:1200px;
 	margin:auto;
@@ -14,7 +11,7 @@
 	display:flex;
     flex-direction: column;
 }
-img{
+.advantages__block img{
 	width:50px;
 	height:50px;
 }
@@ -34,7 +31,7 @@ h2{
 	width: 100px;
 	height: auto;
 }
-p{
+.advantages__block p{
 	font-family:'Lato';
 	font-weight: 400;
 	font-size: 16px;
@@ -72,11 +69,11 @@ p{
 .line_icon {
     width: 110px;
 }
-img{
+.advantages__block img{
 	width:70px;
 	height:70px;
 }
-h2{
+.advantages__block h2{
 	margin-top: -40px;
     margin-left: 85px;
 }
