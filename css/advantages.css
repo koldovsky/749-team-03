@@ -1,1 +1,90 @@
 /* Тут будуть стилі до блоку 3 */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	max-width:1200px;
+	margin:auto;
+}
+.advantages__block{
+    margin:50px;
+	display:flex;
+    flex-direction: column;
+}
+img{
+	width:50px;
+	height:50px;
+}
+h2{	
+    font-family: 'Fjalla One';
+    font-weight: 400;
+    font-size: 20px;
+    margin-top:-30px;
+    margin-left: 70px;
+    margin-bottom:50px;
+    display: flex;
+    align-items: center;
+    color: #1C1D1E;
+   
+}
+.line_icon{
+	width: 100px;
+	height: auto;
+}
+p{
+	font-family:'Lato';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	color: #515151;	
+}
+@media (min-width: 425px){
+.line_icon {
+    width: 130px;
+}
+}
+@media (min-width: 525px){
+.line_icon {
+    width: 190px;
+}
+@media (min-width: 625px){
+.line_icon {
+    width: 230px;
+}
+}
+@media (min-width: 768px){
+.advantages__block{
+        width:35%;
+        margin: 55px;
+}
+.advantages__drones{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.line_icon {
+    width: 110px;
+}
+img{
+	width:70px;
+	height:70px;
+}
+h2{
+	margin-top: -40px;
+    margin-left: 85px;
+}
+}
+@media (min-width: 998px){
+.advantages__drones{
+	margin-top:10%;
+	flex-wrap: nowrap;
+}
+}
