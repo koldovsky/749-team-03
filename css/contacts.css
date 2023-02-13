@@ -1,15 +1,25 @@
 /* Тут будуть стилі до блоку 11 */
-.contacts__details {
-    box-sizing: border-box;
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    justify-content: center;
+/* Тут будуть стилі до блоку 11 */
+.contacts {
+    background-image: url("../img/beach.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 90px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: left;
-    vertical-align: baseline;
-    width: 100%;
 }
+.contacts__details {
+    color: var(--font-color-white);
+    padding: 0 15px;
+}
+.contacts__header {
+    font-size: 34px;
+    letter-spacing: 1.632px;
+    font-family: Fjalla One, sans-serif;
+    line-height: 44.2px;
     
+}
