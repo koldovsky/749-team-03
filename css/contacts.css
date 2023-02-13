@@ -1,8 +1,4 @@
 /* Тут будуть стилі до блоку 11 */
-.contacts {
-    width: 805.6px;
-}
-
 .contacts__details {
     box-sizing: border-box;
     display: flex;
@@ -14,6 +10,6 @@
     justify-content: center;
     text-align: left;
     vertical-align: baseline;
-    width: 440px;
+    width: 100%;
 }
     
