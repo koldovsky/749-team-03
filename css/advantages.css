@@ -1,112 +1,136 @@
-/* Тут будуть стилі до блоку 3 */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.container{
-	max-width: 1200px;
-	margin:auto;
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
-.advantages__block{
+
+.advantages__block {
     margin: 50px;
-	display:flex;
+    display: flex;
     flex-direction: column;
 }
-.advantages__block h2{	
+
+.advantages__block h2 {
     font-family: var(--font-family-header);
     font-weight: 400;
     font-size: 20px;
-    margin-top:-40px;
+    margin-top: -40px;
     margin-left: 70px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     color: #1C1D1E;
-   
+
 }
-.line_icon{
-	width: 100px;
-	height: auto;
-}
-.advantages__block p{
-	font-family: var(--font-family-paragraph);
-	font-weight: 400;
-	font-size: 16px;
-	line-height:27px;
-	padding-top:20px;
-    padding-bottom:45px;
-	display: flex;
-	align-items: center;
-	color: #515151;	
-}
-@media (min-width: 320px){
-.dual_shock,.camera_icon,.drone_icon{
-	width:50px;
-	height:50px;
-}
-.small_block{
-	padding-top:50px;
-}
+
 .line_icon {
     width: 100px;
+    height: auto;
 }
+
+.advantages__block p {
+    font-family: var(--font-family-paragraph);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    display: flex;
+    align-items: center;
+    color: #515151;
 }
-@media (min-width: 425px){
-.line_icon {
-    width: 130px;
+
+@media (min-width: 320px) {
+    .dualchok, .camera_icon, .drone_icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .small_block {
+        padding-top: 50px;
+    }
+
+    .line_icon {
+        width: 100px;
+    }
 }
+
+@media (min-width: 425px) {
+    .line_icon {
+        width: 130px;
+    }
 }
-@media (min-width: 525px){
-.line_icon {
-    width: 190px;
+
+@media (min-width: 525px) {
+    .line_icon {
+        width: 190px;
+    }
 }
+
+@media (min-width: 625px) {
+    .line_icon {
+        width: 230px;
+    }
 }
-@media (min-width: 625px){
-.line_icon {
-    width: 230px;
+
+@media (min-width: 768px) {
+    .advantages__block {
+        width: 38%;
+        margin: 48px;
+    }
+
+    .advantages__drones {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .line_icon {
+        width: 110px;
+    }
+
+    .dualchok, .camera_icon, .drone_icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .advantages__block h2 {
+        margin-top: -40px;
+        margin-left: 85px;
+    }
+
+    .small_block {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .advantages__drones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media (min-width: 998px) {
+    .advantages__drones {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-wrap: nowrap;
+    }
+
+    .advantages__block {
+        width: 59%;
+    }
+
+    .small_block {
+        padding-bottom: 8%;
+    }
 }
-@media (min-width: 768px){
-.advantages__block{
-        width:38%;
-        margin:48px;
-}
-.advantages__drones{
-	display: flex;
-	flex-wrap: wrap;
-}
-.line_icon {
-    width: 110px;
-}
-.dual_shock,.camera_icon,.drone_icon{
-	width:70px;
-	height:70px;
-}
-.advantages__block h2{
-	margin-top: -40px;
-    margin-left: 85px;
-}
-.small_block{
-	display: flex;
-	flex-direction: row;
-}
-.advantages__drones{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-}
-@media (min-width: 998px){
-.advantages__drones{
-	padding-top: 100px;
-	padding-bottom: 100px;
-	flex-wrap: nowrap;
-}
-.advantages__block{
-        width:59%;
-}
-.small_block{
-	padding-bottom: 8%;
-}
+
 @media (min-width: 1100px) {
-	.small_block {
-		padding-bottom: 2%;
-	}
-}}
+    .small_block {
+        padding-bottom: 2%;
+    }
+}
+
