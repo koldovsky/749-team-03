@@ -45,8 +45,7 @@
     font-family: var(--font-family-paragraph);
     font-size: 18px;
     color: var(--font-color-white);
-    display: block;
-    
+    display: block;  
 }
 
 .about__slogo {
@@ -56,7 +55,6 @@
     color: var(--font-color-light-gray);
     display: block;
 }
-
 
 .about__addition {
     margin-top: 25px;
@@ -157,7 +155,6 @@
     }
     .about__numbers {
         flex-direction: row;
-        width: 70%;
     }
     .about__content {
         justify-content: space-around;
