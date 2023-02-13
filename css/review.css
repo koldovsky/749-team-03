@@ -128,11 +128,14 @@
     }
 
     .review__content .review__title {
+        display: flex;
+        justify-content: center;
         padding: 45px 41px 0 41px;
         line-height: 48.1px;
         font-size: 37px;
         grid-area: header;
         background-color: var(--font-color-white);
+        margin: 0;
     }
 
     .review__author {
