@@ -1,5 +1,4 @@
 /* Тут будуть стилі до блоку 11 */
-/* Тут будуть стилі до блоку 11 */
 .contacts {
     background-image: url("../img/beach.png");
     background-repeat: no-repeat;
@@ -13,13 +12,32 @@
     text-align: left;
 }
 .contacts__details {
+    display: block;
     color: var(--font-color-white);
     padding: 0 15px;
+    line-height: 27.2px;
 }
 .contacts__header {
     font-size: 34px;
     letter-spacing: 1.632px;
     font-family: Fjalla One, sans-serif;
-    line-height: 44.2px;
-    
+    line-height: 44.2px;   
+}
+.contacts__line {
+    object-fit: contain;
+    height: 32px;
+    line-height: 27.2px;
+}
+
+.contacts__paragraph {
+    font-size: 18px;
+    line-height: 28.8px;
+}
+.contacts__phone {
+    color: var(--font-color-white);
+    cursor: pointer;
+}
+.contacts__email {
+    color: var(--font-color-white);
+    cursor: pointer;
 }
