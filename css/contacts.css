@@ -42,10 +42,47 @@
     cursor: pointer;
 }
 .class__form {
+    box-sizing: border-box;
     display: block;
     color: var(--font-color-white);
-    padding: 0 15px;
     line-height: 27.2px;
     margin-top: 12px;
     padding: 19px 21px;
+}
+#input_text {
+    background-color: rgba(28, 29, 30, 0.41);
+    border-color: rgb(240, 240, 240);
+    cursor: text;
+    font-size: 12px;
+    line-height: 14.4px;
+    writing-mode: horizontal-tb;
+}
+#input_phone {
+    background-color: rgba(28, 29, 30, 0.41);
+    border-color: rgb(240, 240, 240);
+    cursor: text;
+    font-size: 12px;
+    line-height: 14.4px;
+    writing-mode: horizontal-tb;
+}
+#input_email {
+    background-color: rgba(28, 29, 30, 0.41);
+    border-color: rgb(240, 240, 240);
+    cursor: text;
+    font-size: 12px;
+    line-height: 14.4px;
+    writing-mode: horizontal-tb;
+}
+#input_message {
+    background-color: rgba(28, 29, 30, 0.41);
+    border-color: rgb(240, 240, 240);
+    cursor: text;
+    font-size: 12px;
+    line-height: 14.4px;
+    writing-mode: horizontal-tb;
+}
+#input_submit {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
 }
