@@ -1,2 +1,77 @@
-/* Тут будуть стилі до блоку 4 */
+.drones__needs {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--font-color-bright-gray);
+}
 
+.drones__needs-infoheader {
+    padding: 90px 0px 0px 25px;
+    font-size: 32px;
+    line-height: 44.2px;
+    font-family: var(--font-family-header);
+}
+
+.drones__needs-line {
+    padding: 5px 50px 10px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.drones__needs-maintext {
+    text-align: left;
+    padding: 0 25px 10px 25px;
+   
+    font-style: normal;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-family: var(--font-family-paragraph);
+}
+
+.drones__needs-submaintext {
+    text-align: left;
+    padding: 0 40px 10px 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-gray);
+}
+
+.drones__needs-button {
+    margin: 10px 0 5px 25px;
+    background-color: var(--buttom-color-pink);
+    border: none;
+    color: var(--font-color-white);
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+.drones__interaction {
+    margin-top: 70px;
+}
+
+.drones__interaction img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .drones__needs {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .drones__needs-info {
+        width: 110%;
+        padding: 40px 30px 0 10px;
+    }
+
+    .drones__needs-button {
+        margin-left: 20px;
+    }
+}

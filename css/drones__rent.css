@@ -1,2 +1,67 @@
-/* Тут будуть стилі до блоку 7 */
+.rent__drone {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/white_drone.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+.rent__drone-info {
+    padding: 150px 10px;
+}
+
+.rent__drone-info-header {
+    padding: 0 50px 40px 40px;
+    font-size: 34px;
+    line-height: 44.2px;
+    letter-spacing: 1.632;
+    background-color: var(--font-color-white);
+}
+
+.rent__drone-info-divider {
+    padding: 0 30px 40px 40px;
+    background-color: var(--font-color-white);
+}
+
+.rent__drone-info-text {
+    padding: 0 40px 30px 40px;
+    line-height: 28.8px;
+    font-size: 18px;
+    color: var(--font-color-gray);
+    background-color: var(--font-color-white);
+}
+
+.rent__drone-info-button {
+    background-color: var(--font-color-cyan);
+    border: none;
+    color: var(--font-color-white);
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 40px 0 40px;
+}
+
+@media (min-width: 768px) {
+    .rent__drone {
+        display: flex;
+        flex-direction: row-reverse;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: flex-start;
+
+    }
+
+    .rent__drone-info {
+        width: 42%;
+        max-width: 460px;
+        flex-direction: column-reverse;
+    }
+
+    .rent__drone-info-header,
+    .rent__drone-info-divider,
+    .rent__drone-info-text {
+        background-color: transparent;
+    }
+}
