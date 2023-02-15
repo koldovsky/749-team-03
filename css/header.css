@@ -138,7 +138,6 @@
   align-items: flex-start;
   width: 145.89px;
   height: 61.19px;
-  border-radius: 0;
   border-width: 1px;
   border-color:var(--font-color-white);
   border-style: solid;
@@ -146,13 +145,11 @@
 }
 
 .pink__buttom_text {
-  display: inline-block;
   position: relative;
   max-width: 100%;
   word-wrap: break-word;
   display: flex;
   flex-direction: row;
-  position: relative;
   justify-content: center;
   text-align: center;
   padding: 20px;
@@ -170,12 +167,15 @@
 .welcome__page_content{
   padding-top: 30px;
   padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 85px;
 
 }
-.navigation_block{
-  float: right;
-  display: flex;
-}
+/*.navigation_block{*/
+/*  float: right;*/
+/*  display: flex;*/
+/*}*/
 .img__slash{
   padding-top:30px;
   padding-bottom:30px;
