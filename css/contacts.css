@@ -11,18 +11,21 @@
     background-size: cover;
     text-align: left;
 }
+
 .contacts__details {
     display: block;
     color: var(--font-color-white);
     padding: 0 15px;
     line-height: 27.2px;
 }
+
 .contacts__header {
     font-size: 34px;
     letter-spacing: 1.632px;
     font-family: Fjalla One, sans-serif;
-    line-height: 44.2px;   
+    line-height: 44.2px;
 }
+
 .contacts__line {
     object-fit: contain;
     height: 32px;
@@ -33,14 +36,17 @@
     font-size: 18px;
     line-height: 28.8px;
 }
+
 .contacts__phone {
     color: var(--font-color-white);
     cursor: pointer;
 }
+
 .contacts__email {
     color: var(--font-color-white);
     cursor: pointer;
 }
+
 .class__form {
     box-sizing: border-box;
     display: block;
@@ -49,6 +55,7 @@
     margin-top: 12px;
     padding: 19px 21px;
 }
+
 #input_text {
     background-color: rgba(28, 29, 30, 0.41);
     border-color: rgb(240, 240, 240);
@@ -57,6 +64,7 @@
     line-height: 14.4px;
     writing-mode: horizontal-tb;
 }
+
 #input_phone {
     background-color: rgba(28, 29, 30, 0.41);
     border-color: rgb(240, 240, 240);
@@ -65,6 +73,7 @@
     line-height: 14.4px;
     writing-mode: horizontal-tb;
 }
+
 #input_email {
     background-color: rgba(28, 29, 30, 0.41);
     border-color: rgb(240, 240, 240);
@@ -73,6 +82,7 @@
     line-height: 14.4px;
     writing-mode: horizontal-tb;
 }
+
 #input_message {
     background-color: rgba(28, 29, 30, 0.41);
     border-color: rgb(240, 240, 240);
@@ -81,6 +91,7 @@
     line-height: 14.4px;
     writing-mode: horizontal-tb;
 }
+
 #input_submit {
     cursor: pointer;
     font-size: 12px;

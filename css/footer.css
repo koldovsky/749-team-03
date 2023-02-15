@@ -1,12 +1,12 @@
-.footer{
-    background-color:var(--font-color-black);
+.footer {
+    background-color: var(--font-color-black);
 }
 
 .footer_logo {
-  width: 151px;
+    width: 151px;
 }
 
-.footer__navigation_items{
+.footer__navigation_items {
     display: flex;
     flex-direction: column;
 
@@ -23,16 +23,16 @@
     max-width: 100%;
 }
 
-.footer__hr{
+.footer__hr {
     width: 90%;
     display: block;
     margin: auto;
     height: 1px;
-    
+
 }
 
-.footer_text{
-    color:var(--font-color-gray);
+.footer_text {
+    color: var(--font-color-gray);
     text-align: center;
 }
 

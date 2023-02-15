@@ -5,7 +5,7 @@
 }
 
 .drones__needs-infoheader {
-    padding: 90px 0px 0px 25px;
+    padding: 90px 0 0 25px;
     font-size: 32px;
     line-height: 44.2px;
     font-family: var(--font-family-header);
@@ -20,7 +20,7 @@
 .drones__needs-maintext {
     text-align: left;
     padding: 0 25px 10px 25px;
-   
+
     font-style: normal;
     margin-bottom: 25px;
     font-size: 18px;

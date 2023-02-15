@@ -11,7 +11,7 @@
     padding-bottom: 90px;
     padding-left: 24px;
     padding-right: 24px;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .about__drones-photo {
@@ -43,7 +43,7 @@
     font-family: var(--font-family-paragraph);
     font-size: 18px;
     color: var(--font-color-white);
-    display: block;  
+    display: block;
 }
 
 .about__slogo {
@@ -95,6 +95,7 @@
     font-family: var(--font-family-header);
     color: var(--font-color-white);
 }
+
 .about__offer {
     margin-bottom: 16px;
     display: flex;
@@ -113,7 +114,8 @@
     font-family: var(--font-family-header);
     color: var(--font-color-white);
 }
-@media(min-width: 768px) {
+
+@media (min-width: 768px) {
     .about {
         display: flex;
         padding-top: 105px;
@@ -124,6 +126,7 @@
         column-gap: 40px;
         align-items: center;
     }
+
     .about__title {
         margin-top: 0;
     }
@@ -144,39 +147,49 @@
         margin-bottom: 20px;
         width: 70%;
     }
+
     .about__slogo {
         margin-bottom: 20px;
         width: 70%;
     }
+
     .about__numbers {
         flex-direction: row;
     }
+
     .about__content {
         justify-content: space-around;
         flex: 1;
     }
+
     .about__available {
         justify-content: space-around;
         flex: 3;
     }
+
     .about__rent {
         flex-direction: row;
     }
+
     .about__avon {
         justify-content: space-around;
         flex: 1;
     }
+
     .about__models {
         justify-content: space-around;
         flex: 3;
     }
+
     .about__offer {
         flex-direction: row;
     }
+
     .about__tens {
         justify-content: space-around;
         flex: 1;
     }
+
     .about__clients {
         justify-content: space-around;
         flex: 3;
