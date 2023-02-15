@@ -1,156 +1,183 @@
 /*   Тут будуть стилі до блоку 1 */
 
 .header__logo {
-    width: 122px;
-    padding-top : 10px;
-    padding-left: 10px;
-  }
-  
-  .navigation__items {
-    display: flex;
-    text-decoration: none;
-    font-family: var(--font-family-paragraph);
-    color: var(--font-color-white);
-  }
-  
-  .welcome__page {
-    background-image: url(../img/welcome_page_background_image.webp);
-  }
-  
-  .info_block_paragraf {
-    font-size: 18px;
-    font-family: var(--font-family-header);
-    color: var(--font-color-white);
-    padding-top: 20px;
-    padding-left: 10px;
-  }
-  
+  width: 122px;
+  float: left;
+  padding: left 20px;;
+}
+
+.navigation__items {
+  display: flex;
+  text-decoration: none;
+  font-family: var(--font-family-paragraph);
+  color: var(--font-color-white);
+}
+
+.welcome__page {
+  background-image: url(../img/welcome_page_background_image.webp);
+}
+
+.info_block_paragraf {
+  font-size: 18px;
+  font-family: var(--font-family-header);
+  color:var(--font-color-white);
+}
+
+.green-left-slash {
+  width: 30%;
+  height: 8px;
+}
+
+@media (min-width: 770px) {
   .green-left-slash {
-    width: 30%;
-    height: 8px;
+    width: 300px;
   }
-  
-  @media (min-width: 770px) {
-    .green-left-slash {
-      width: 300px;
-    }
-  }
-  
-  .navigation__items {
-    text-decoration: none;
-    color: var(--font-color-white);
-  }
-  
-  .rent-button {
-    width: 154px;
-    height: 59px;
-    text-align: center;
-    font-size: 13px;
-    color: var(--font-color-white);
-    font-family: var(--font-family-paragraph);
-    cursor: pointer;
-    margin: 10px;
-  }
-  
-  .laern-more-buttom {
-    width: 143px;
-    height: 59px;
-    text-align: center;
-    font-size: 13px;
-    color: var(--font-color-white);
-    font-family: var(--font-family-paragraph);
-    border: var(--font-color-white);
-    cursor: pointer;
-    margin: 10px;
-  }
-  
+}
+
+.navigation__items {
+  text-decoration: none;
+  color: var(--font-color-white);
+}
+
+.rent-button {
+  width: 154px;
+  height: 59px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: var(--font-family-paragraph);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.laern-more-buttom {
+  width: 143px;
+  height: 59px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: var(--font-family-paragraph);
+  border: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.navigation_buttoms {
+  display: flex;
+}
+
+@media (max-width: 370px) {
   .navigation_buttoms {
     display: flex;
+    flex-direction: column;
   }
-  
-  @media (max-width: 370px) {
-    .navigation_buttoms {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
-  .header {
-    background-image: url(../img/welcome_page_background_image.webp);
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-  
-  .buttom__content {
-    display: flex;
-    position: relative;
-    align-items: center;
-  }
-  .nav__item {
-    width: 84px;
-    height: 19px;
-    font-family: var(--font-family-paragraph);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    color: var(--font-color-white);
-  }
-  .welcome__info_block {
-    display: block;
-  }
-  .w__text_content {
-    font-family: var(--font-family-header);
-    font-size: 64px;
-    color: var(--font-color-white);
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  
-  .colorful_button {
-    display: block;
-    margin: 10px;
-  }
-  
-  .pink__border_button {
-    background-color: var(--buttom-color-pink);
-    width: 156.7px;
-    height: 61.19px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    border-radius: 0;
-    margin: 10px;
-  }
-  
-  .main__border_button {
-    border-radius: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 145.89px;
-    height: 61.19px;
-    border-radius: 0;
-    border-width: 1px;
-    border-color: var(--font-color-white);
-    border-style: solid;
-    padding: 20px;
-    margin: 10px;
-  
-  }
-  .pink__buttom_text {
-    display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-  }
-  
+}
+
+.header {
+  background-image: url(../img/welcome_page_background_image.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.buttom__content {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.nav__item {
+  width: 84px;
+  height: 19px;
+  font-family: var(--font-family-paragraph);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: var(--font-color-white);
+}
+
+.welcome__info_block {
+  display: block;
+  padding-top: 160px;
+  padding-left: 25px;
+
+}
+
+.w__text_content {
+  font-family: var(--font-family-header);
+  font-size: 64px;
+  color: var(--font-color-white);
+  display: flex;
+  justify-content:space-between;
+}
+
+.colorful_button {
+  display: block;
+  padding-top: 55px;
+}
+
+.pink__border_button {
+  background-color: var(--buttom-color-pink);
+  width: 156.7px;
+  height: 61.19px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border-radius: 0;
+  justify-content:space-evenly;
+}
+
+.main__border_button {
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 145.89px;
+  height: 61.19px;
+  border-radius: 0;
+  border-width: 1px;
+  border-color:var(--font-color-white);
+  border-style: solid;
+  padding: 20px;
+}
+
+.pink__buttom_text {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-family: var(--font-family-paragraph);
+  text-decoration: none;
+  color: var(--font-color-white);
+}
+
+.buttom_main_page {
+  font-family: var(--font-family-paragraph);
+  text-decoration: none;
+  color: var(--font-color-white);
+}
+
+.welcome__page_content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.navigation_block{
+  float: right;
+  display: flex;
+}
+.img__slash{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+

@@ -1,2 +1,40 @@
-/* Тут будуть стилі до блоку 12 */
+.footer{
+    background-color:var(--font-color-black);
+}
+
+.footer_logo {
+  width: 151px;
+}
+
+.footer__navigation_items{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.nav__footer_item {
+    text-decoration: none;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-white);
+    text-align: center;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+}
+
+.footer__hr{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 1px;
+    
+}
+
+.footer_text{
+    color:var(--font-color-gray);
+    text-align: center;
+}
+
+
 
