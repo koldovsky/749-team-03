@@ -79,13 +79,17 @@
     max-height: 50px;
     line-height: 12px;
     -webkit-font-smoothing: antialiased;
+    transition: 0.3s;
 }
 
-@media (min-width: 768px) {
-    .blog__wrapper {
-        padding: 105px 32px 110px 32px;
-    }
+.blog__footer__button:hover {
+    background-color: #0ad19d;;
 }
+
+.blog__footer__button:active {
+    background-color: #f52e62;
+}
+
 
 @media (min-width: 767px) {
     .blog__header {
@@ -99,6 +103,9 @@
 }
 
 @media (min-width: 768px) {
+    .blog__wrapper {
+        padding: 105px 32px 110px 32px;
+    }
 
     .blog__header_title {
         font-size: 37px;

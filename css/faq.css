@@ -51,6 +51,7 @@
     font-family: var(--font-family-header);
 
 }
+
 .faq__text-title {
     color: #c5c5c5;
     margin-top: 20px;
@@ -74,14 +75,17 @@
     padding: 0 15px;
     margin-top: 50px;
 }
+
 @media (min-width: 768px) {
-    .faq{
-        padding:105px 0 100px;
+    .faq {
+        padding: 105px 0 100px;
     }
+
     .faq__body_main {
         padding: 0 32px;
     }
-    .faq__header{
+
+    .faq__header {
         max-width: 50%;
         text-align: center;
     }
