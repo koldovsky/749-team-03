@@ -24,6 +24,17 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.about-carousel__slides {
+    font-size: 20px;
+    font-family: var(--font-family-paragraph);
+    color: var(--font-color-white);
+}
+
+.about-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 .about__title {
@@ -125,6 +136,15 @@
         justify-content: space-between;
         column-gap: 40px;
         align-items: center;
+    }
+    .about-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-carousel__slides {
+        font-size: 36px;
     }
 
     .about__title {
