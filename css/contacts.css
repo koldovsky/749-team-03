@@ -17,13 +17,19 @@
     color: var(--font-color-white);
     padding: 0 15px;
     line-height: 27.2px;
+    margin-left: 20px;
+    font-family: var(--font-family-paragraph);
+    padding: 20px, 10px, 20px, 10px;
 }
 
 .contacts__header {
     font-size: 34px;
     letter-spacing: 1.632px;
-    font-family: Fjalla One, sans-serif;
+    font-family: var(--font-family-header);
     line-height: 44.2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: normal;
 }
 
 .contacts__line {
@@ -35,65 +41,64 @@
 .contacts__paragraph {
     font-size: 18px;
     line-height: 28.8px;
+
 }
 
-.contacts__phone {
-    color: var(--font-color-white);
-    cursor: pointer;
+.contacts__paragraph,
+.contacts__hours,
+.contacts__adress,
+.contacts__information {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
+ul {
+    list-style: none;
+}
+
+.contacts__phone,
 .contacts__email {
     color: var(--font-color-white);
     cursor: pointer;
+    text-decoration: none;
 }
+
 
 .class__form {
-    box-sizing: border-box;
-    display: block;
     color: var(--font-color-white);
-    line-height: 27.2px;
-    margin-top: 12px;
-    padding: 19px 21px;
+    background: rgba(28, 29, 30, 0.82);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    height: 550px;
 }
 
-#input_text {
+input,
+textarea {
     background-color: rgba(28, 29, 30, 0.41);
-    border-color: rgb(240, 240, 240);
     cursor: text;
-    font-size: 12px;
-    line-height: 14.4px;
-    writing-mode: horizontal-tb;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    border: none;
 }
 
-#input_phone {
-    background-color: rgba(28, 29, 30, 0.41);
-    border-color: rgb(240, 240, 240);
-    cursor: text;
-    font-size: 12px;
-    line-height: 14.4px;
-    writing-mode: horizontal-tb;
-}
-
-#input_email {
-    background-color: rgba(28, 29, 30, 0.41);
-    border-color: rgb(240, 240, 240);
-    cursor: text;
-    font-size: 12px;
-    line-height: 14.4px;
-    writing-mode: horizontal-tb;
-}
-
-#input_message {
-    background-color: rgba(28, 29, 30, 0.41);
-    border-color: rgb(240, 240, 240);
-    cursor: text;
-    font-size: 12px;
-    line-height: 14.4px;
-    writing-mode: horizontal-tb;
+#input_message,
+#input_submit {
+    width: 185px;
 }
 
 #input_submit {
     cursor: pointer;
     font-size: 12px;
     line-height: 12px;
+    margin-bottom: 30px;
+    color: var(--font-color-white);
+    background-color: #f52e62;
 }
