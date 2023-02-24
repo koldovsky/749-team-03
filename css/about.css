@@ -24,8 +24,9 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .about-carousel__slides {
-    font-size: 20px;
+    font-size: 34px;
     font-family: var(--font-family-paragraph);
     color: var(--font-color-bright-gray);
 }
@@ -137,6 +138,7 @@
         column-gap: 40px;
         align-items: center;
     }
+
     .about-carousel {
         display: flex;
         align-items: center;
@@ -145,6 +147,7 @@
 
     .about-carousel__slides {
         font-size: 36px;
+        color: var(--font-color-cyan);
     }
 
     .about__title {
