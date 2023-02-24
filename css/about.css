@@ -27,7 +27,7 @@
 .about-carousel__slides {
     font-size: 20px;
     font-family: var(--font-family-paragraph);
-    color: var(--font-color-white);
+    color: var(--font-color-bright-gray);
 }
 
 .about-carousel {
