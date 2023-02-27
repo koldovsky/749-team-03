@@ -10,6 +10,14 @@
     -o-background-size: cover;
     background-size: cover;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        flex-direction: column;
+    }
 }
 
 .contacts__details {
@@ -19,6 +27,9 @@
     line-height: 27.2px;
     margin-left: 20px;
     font-family: var(--font-family-paragraph);
+    order: 1;
+    width: 80%;
+    ma
 }
 
 .contacts__header {
@@ -35,6 +46,7 @@
     object-fit: contain;
     height: 32px;
     line-height: 27.2px;
+    width: 60%;
 }
 
 .contacts__paragraph {
@@ -66,31 +78,34 @@ ul {
 .class__form {
     color: var(--font-color-white);
     background: rgba(28, 29, 30, 0.82);
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
-    height: 550px;
+    width: 80%;
+    margin-left: 10%;
+    order: 2;
+    margin-right: 200px;
+    
 }
 
-input,
-textarea {
+#input_message,
+#input_submit,
+#input_text,
+#input_phone,
+#input_email {
     background-color: rgba(28, 29, 30, 0.41);
     cursor: text;
-    width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    margin: 25px 10px 15px 10px;
     border: none;
 }
 
 #input_message,
 #input_submit {
-    width: 185px;
+    width: 190px;
+    
 }
 
 #input_submit {
@@ -100,4 +115,19 @@ textarea {
     margin-bottom: 30px;
     color: var(--font-color-white);
     background-color: #f52e62;
+    text-transform: uppercase;
+    max-height: 50px;
+    line-height: 12px;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.3s;
+    
+    }
+        
+#input_submit:hover {
+    background-color: #0ad19d;
 }
+        
+#input_submit:active {
+    background-color: #f52e62;
+}
+
