@@ -74,4 +74,8 @@
     .drones__needs-button {
         margin-left: 20px;
     }
+    
+    .drones__interaction {
+        margin-top: 0;
+    }
 }
