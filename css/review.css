@@ -38,6 +38,8 @@
     max-height: 250px;
     text-align: center;
     vertical-align: bottom;
+    animation-name: displayAnimation;
+    animation-duration: 1s;
 }
 
 
@@ -54,6 +56,8 @@
     font-size: 18px;
     overflow-wrap: break-word;
     line-height: 28.8px;
+    animation-name: displayAnimation;
+    animation-duration: 1s;
 }
 
 .review__author {
@@ -128,20 +132,24 @@
     }
 
     .review__content .review__title {
-        display: flex;
-        justify-content: center;
+        margin: 0;
         padding: 45px 41px 0 41px;
         line-height: 48.1px;
         font-size: 37px;
         grid-area: header;
         background-color: var(--font-color-white);
-        margin: 0;
     }
 
     .review__author {
         font-size: 23px;
         margin-bottom: 45px;
     }
+}
+
+
+@keyframes displayAnimation{
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
 
 
