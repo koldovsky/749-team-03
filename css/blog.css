@@ -90,7 +90,6 @@
     background-color: #f52e62;
 }
 
-
 @media (min-width: 767px) {
     .blog__header {
         margin-top: 0;
@@ -137,5 +136,4 @@
     .blog__main {
         margin-bottom: 55px;
     }
-
 }

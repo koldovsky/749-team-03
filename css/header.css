@@ -207,13 +207,15 @@
         padding: 30px 15px;
     }
 }
-@media (max-width:780px){
-    .colorful_button{
+
+@media (max-width: 780px) {
+    .colorful_button {
         display: flex;
         flex-direction: column;
     }
-    .w__text_content{
+
+    .w__text_content {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
     }
 }

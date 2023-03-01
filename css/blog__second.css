@@ -1,19 +1,22 @@
-.blog_page__header{
+.blog_page__header {
     height: 100px;
     background-color: #1c1d1e;
 }
+
 .blog_second__main {
     height: 450px;
     border: 1px solid rgba(33, 39, 54, 0.12);
     margin: 0;
 }
-.blog_second__header{
+
+.blog_second__header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 45px;
 }
+
 .blog_second__wrapper {
     padding: 140px 24px 90px 24px;
 }
@@ -23,6 +26,7 @@
     .blog_second__wrapper {
         padding: 95px 32px 100px 32px;
     }
+
     .blog_second__header {
         height: 105.9px;
         padding: 0 34%;
