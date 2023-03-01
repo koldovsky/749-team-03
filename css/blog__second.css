@@ -14,10 +14,13 @@
     justify-content: center;
     margin-bottom: 45px;
 }
+.blog_second__wrapper {
+    padding: 140px 24px 90px 24px;
+}
 
 
 @media (min-width: 768px) {
-    .blog__wrapper {
+    .blog_second__wrapper {
         padding: 95px 32px 100px 32px;
     }
     .blog_second__header {
@@ -27,7 +30,8 @@
 }
 
 @media (min-width: 992px) {
-    .blog__wrapper {
+    .blog_second__wrapper {
         padding: 100px 40px 110px 40px;
     }
+
 }
