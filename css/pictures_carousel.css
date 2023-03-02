@@ -34,7 +34,10 @@
 .card__img {
     height: 100%;
 }
-
+.carousel_image{
+    height: 100%;
+    border-width: 0;
+}
 .itc-slider__btn {
     position: absolute;
     top: 50%;
