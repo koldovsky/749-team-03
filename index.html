@@ -8,15 +8,18 @@
     <title>Drones Rental Website Template</title>
     <link rel="stylesheet" href="css/index.css">
     <link type="image/x-icon" href="img/site_icon.png" rel="icon">
-    <script src="js/basicLightbox.min.js"></script>
+    <script src="js/basicLightbox.min.js" defer></script>
     <script src="js/pictures_carousel.js" defer></script>
+    <script src="js/about-slider.js" defer></script>
+    <script src="js/review-tabs.js" defer></script>
+    <script src="js/drones__needs.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
 
 
 </head>
 
 <body>
 
-<!-- Shtykalo Danylo -->
 <header class="header">
     <div class="welcome__page_content">
         <div class="header__logo">
@@ -25,15 +28,10 @@
         <nav>
             <ul class="navigation__items">
                 <li><a href="#about" class="nav__item">About as</a></li>
-                <!--#-->
                 <li><a href="#drones" class="nav__item">Drones</a></li>
-                <!--#-->
                 <li><a href="#gallery" class="nav__item">Gallery</a></li>
-                <!--#-->
                 <li><a href="#testimonials" class="nav__item">Testimonials</a></li>
-                <!--#-->
                 <li><a href="#contacts" class="nav__item">Contacts us</a></li>
-                <!--#-->
             </ul>
         </nav>
     </div>
@@ -58,11 +56,8 @@
     </div>
 </header>
 
-<!-- Block 1 -->
-
 <main>
 
-    <!-- Hopei Danylo-->
     <section id="about" class="about">
         <div class="about__drones-photo">
             <img class="about__dron" src="img/icons-dron-ocean.png" alt="Drone">
@@ -102,9 +97,8 @@
             </div>
         </div>
     </section>
-    <!--2 block-->
 
-    <!-- Ivan Okan -->
+
     <div class="container">
         <section class="advantages__drones">
             <div class="small_block">
@@ -132,9 +126,8 @@
             </div>
         </section>
     </div>
-    <!-- Block 3 -->
 
-    <!--Dmytro Gavrylov-->
+
     <section class="drones__needs container">
         <div class="drones__needs-info">
             <h2 class="drones__needs-infoheader">Drones for Your Needs</h2>
@@ -159,9 +152,8 @@
             <img class="drones__interaction-image" src="img/drone_interaction.png" alt="drone interaction">
         </div>
     </section>
-    <!-- 4 block -->
 
-    <!--Feduniv Volodymyr-->
+
     <section id="drones" class="drones__section_wrapper">
         <div class="drones__section">
 
@@ -265,8 +257,7 @@
             </div>
         </div>
     </section>
-    <!-- 5 block -->
-    <!--Eugene Anisimov-->
+
     <div>
         <div id="gallery" class="itc-slider" data-autoplay="true" data-interval="4000" data-loop="true"
              data-slider="itc-slider">
@@ -281,133 +272,28 @@
                     </div>
                     <div class="itc-slider__item">
                         <button class="carousel_image image2">
-                        <img alt="..." class="card__img"
-                             src="img/carousel2.jfif">
+                            <img alt="..." class="card__img"
+                                 src="img/carousel2.jfif">
                         </button>
                     </div>
                     <div class="itc-slider__item">
                         <button class="carousel_image image3">
-                        <img alt="..." class="card__img"
-                             src="img/carousel3.png">
+                            <img alt="..." class="card__img"
+                                 src="img/carousel3.png">
                         </button>
                     </div>
                     <div class="itc-slider__item">
                         <button class="carousel_image image4">
-                        <img alt="..." class="card__img"
-                             src="img/carousel4.png">
+                            <img alt="..." class="card__img"
+                                 src="img/carousel4.png">
                         </button>
                     </div>
                     <div class="itc-slider__item">
                         <button class="carousel_image image5">
-                        <img alt="..." class="card__img"
-                             src="img/carousel5.jfif">
+                            <img alt="..." class="card__img"
+                                 src="img/carousel5.jfif">
                         </button>
                     </div>
-                    <script id="rendered-js">
-                        document.querySelector('button.image1').onclick = () => {
-                            basicLightbox.create(`<img  src="img/carousel1.png">`).show();
-                        };
-                        document.querySelector('button.image2').onclick = () => {
-                            basicLightbox.create(`<img  src="img/carousel2.jfif">`).show();
-                        };
-                        document.querySelector('button.image3').onclick = () => {
-                            basicLightbox.create(`<img  src="img/carousel3.png">`).show();
-                        };
-                        document.querySelector('button.image4').onclick = () => {
-                            basicLightbox.create(`<img  src="img/carousel4.png">`).show();
-                        };
-                        document.querySelector('button.image5').onclick = () => {
-                            basicLightbox.create(`<img  src="img/carousel5.jfif">`).show();
-                        };
-
-                        document.querySelector('button.callbacks').onclick = () => {
-
-                            const html = `
-		<h1>Callbacks</h1>
-		<p>Take a look at the console of your browser.<br>This lightbox will close automaticly to demonstrate the close-callback.</p>
-	`;
-
-                            const instance = basicLightbox.create(html, {
-                                onShow: instance => console.log('onShow', instance),
-                                onClose: instance => console.log('onClose', instance)
-                            });
-
-
-                            instance.show(instance => console.log('finished show()', instance));
-
-                            setTimeout(() => {
-                                instance.close(instance => console.log('finished close()', instance));
-                            }, 3000);
-
-                        };
-
-                        document.querySelector('button.blocked').onclick = () => {
-
-                            const html = `
-		<h1>Blocked</h1>
-		<p>It's not possible to close this lightbox,<br>because the onClose function returns false.</p>
-	`;
-
-                            basicLightbox.create(html, {
-                                onClose: () => false
-                            }).show();
-
-                        };
-
-
-                        document.querySelector('button.notClosable').onclick = () => {
-
-                            const html = `
-		<h1>Not closable</h1>
-		<p>It's not possible to close this lightbox with a click.</p>
-	`;
-
-                            basicLightbox.create(html, {
-                                closable: false
-                            }).show();
-
-                        };
-
-                        document.querySelector('button.modify').onclick = () => {
-
-                            const instance = basicLightbox.create(`
-		<h1>Modify HTML</h1>
-		<p>You can modify the HTML of the lightbox using JS.</p>
-	`);
-
-                            instance.element().insertAdjacentHTML('afterbegin', '<p>Before placeholder</p>');
-                            instance.element().insertAdjacentHTML('beforeend', '<p>After placeholder</p>');
-
-                            instance.show();
-
-                        };
-
-                        document.querySelector('button.classNames').onclick = () => {
-
-                            const html = `
-		<h1>Custom classNames</h1>
-		<p>You can add custom classNames to the lightbox element.</p>
-	`;
-
-                            basicLightbox.create(html, {
-                                className: 'classNames one two three'
-                            }).show();
-
-                        };
-
-                        const stack = () => {
-
-                            const html = `<button>Open another lightbox</button>`;
-                            const instance = basicLightbox.create(html);
-
-                            instance.element().querySelector('button').onclick = stack;
-                            instance.show();
-
-                        };
-
-                        document.querySelector('button.stack').onclick = stack;
-                        //# sourceURL=pen.js
-                    </script>
                 </div>
             </div>
             <button class="itc-slider__btn itc-slider__btn_prev">
@@ -433,7 +319,7 @@
 
     </div>
 
-    <!--Dmytro Gavrylov-->
+
     <section class="rent__drone container">
         <div class="rent__drone-info">
             <h2 class="rent__drone-info-header">WANT TO RENT A DRONE?</h2>
@@ -447,9 +333,7 @@
             <a class="rent__drone-info-button button" href="#">RENT A DRONE</a>
         </div>
     </section>
-    <!-- 7 block -->
 
-    <!--Eugene Anisimov-->
     <section class="blog__wrapper">
         <div class="blog container">
             <div class="blog__header">
@@ -468,9 +352,7 @@
             </div>
         </div>
     </section>
-    <!-- 8 block -->
 
-    <!--Vladyslav Siverskiy-->
     <section id="testimonials" class="review">
         <div class="review__content container hide">
             <h2 class="review__title">OUR CUSTOMERS SAY</h2>
@@ -523,9 +405,7 @@
             </div>
         </div>
     </section>
-    <!-- 9 block -->
 
-    <!--Mykola Petroliuk-->
     <section class="faq__wrapper">
         <!-- <div class="section"></div>-->
         <div class="faq">
@@ -622,10 +502,7 @@
             </div>
         </div>
     </section>
-    <!-- 10 block -->
 
-
-    <!-- Illia Moskaliuk -->
     <section id="contacts" class="contacts">
         <div class="contacts__details">
             <h2 class="contacts__header">CONTACTS</h2>
@@ -664,10 +541,9 @@
         </form>
 
     </section>
-    <!-- 11 block -->
 </main>
 
-<!-- Shtykalo Danylo -->
+
 <footer>
     <div class="footer_logo">
         <img src="./img/header_logo.svg" alt="logo">
@@ -687,10 +563,8 @@
     <p class="footer_text">All rights Reserved</p>
     <p class="footer_text">© Created by team 3</p>
 </footer>
-<!-- 12 Block -->
-<script src="js/about-slider.js"></script>
-<script src="js/review-tabs.js"></script>
-<script src="js/drones__needs.js"></script>
+
+
 </body>
 
 </html>
