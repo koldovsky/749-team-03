@@ -7,13 +7,14 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    box-sizing: border-box;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+.about__material-content {
     padding-left: 24px;
     padding-right: 24px;
-    box-sizing: border-box;
 }
-
 .about__drones-photo {
     padding-left: 15px;
     padding-right: 15px;
@@ -129,14 +130,17 @@
 
 @media (min-width: 768px) {
     .about {
-        display: flex;
         padding-top: 105px;
         padding-bottom: 105px;
+    }
+    .about__material-content {
         padding-left: 32px;
         padding-right: 32px;
-        justify-content: space-between;
-        column-gap: 40px;
+        display: flex;
+        justify-content: center;
         align-items: center;
+        max-width: 1200px;
+        margin: auto
     }
 
     .about-carousel {
@@ -157,23 +161,21 @@
     .about__drones-photo {
         padding-left: 15px;
         padding-right: 15px;
-        text-align: center;
     }
 
     .about__drone-striker {
         padding-left: 15px;
         padding-right: 15px;
-        text-align: center;
     }
 
     .about__text {
         margin-bottom: 20px;
-        width: 70%;
+        width: 80%;
     }
 
     .about__slogo {
         margin-bottom: 20px;
-        width: 70%;
+        width: 80%;
     }
 
     .about__numbers {
@@ -216,5 +218,22 @@
     .about__clients {
         justify-content: space-around;
         flex: 3;
+    }
+}
+@media (min-width: 992px) {
+    .about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .about__material-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .about__dron {
+        width: 570px;
     }
 }
