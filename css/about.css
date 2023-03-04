@@ -170,12 +170,10 @@
 
     .about__text {
         margin-bottom: 20px;
-        width: 80%;
     }
 
     .about__slogo {
         margin-bottom: 20px;
-        width: 80%;
     }
 
     .about__numbers {
@@ -234,6 +232,6 @@
 }
 @media (min-width: 1200px) {
     .about__dron {
-        width: 570px;
+        width: 600px;
     }
 }
