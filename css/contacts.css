@@ -14,7 +14,7 @@
     flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .contacts {
         flex-direction: column;
     }
@@ -81,12 +81,15 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 500px;
     margin-left: 10%;
     order: 2;
     margin-right: 200px;
-
+    overflow: auto;
+    max-width: 80%;
 }
+
+
 
 #input_message,
 #input_submit,
@@ -99,12 +102,23 @@ ul {
     padding: 10px;
     margin: 25px 10px 15px 10px;
     border: none;
+    color: var(--font-color-white);
+    outline-color: #3b99fc;
+    font-size: 14px;
+    font-weight: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: auto;
+    max-width: 400px;
+}
+textarea {
+    resize: none;
+    overflow: hidden;
 }
 
 #input_message,
 #input_submit {
-    width: 190px;
-
+    width: 200px;
 }
 
 #input_submit {
@@ -119,7 +133,8 @@ ul {
     line-height: 12px;
     -webkit-font-smoothing: antialiased;
     transition: 0.3s;
-
+    font-style: normal;
+    justify-content: space-around;
 }
 
 #input_submit:hover {
@@ -129,4 +144,3 @@ ul {
 #input_submit:active {
     background-color: #f52e62;
 }
-
