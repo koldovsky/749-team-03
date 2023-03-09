@@ -212,7 +212,7 @@
 
 @media (max-width: 990px) {
     body.lock {
-      overflow: hidden;
+    overflow: hidden;
     }
     header div .header__logo {
         position: relative;
@@ -223,6 +223,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 30px 0;
         z-index: 10;
       }
       header div div .navigation-burger{
@@ -350,6 +351,8 @@
 
 .navigation-burger span {
     display: block;
+    width: 30px;
+    height: 3px;
     background-color: var(--font-color-white);
     transition: all 0.3s ease;
 }
