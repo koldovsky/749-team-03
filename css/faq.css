@@ -19,7 +19,7 @@
 
 .faq__header {
     color: white;
-    display: flex;
+    display: grid;
     margin-top: 50px;
     padding: 0 15px 0 15px;
     flex-direction: column;
@@ -87,6 +87,15 @@
 
     .faq__header {
         max-width: 50%;
-        text-align: center;
+        margin:auto;
+    }
+    .faq__card_item{
+        max-width: 50%;
+    }
+    .faq__card{
+        flex-direction: row;
+    }
+    .faq__card-2{
+        flex-direction: row;
     }
 }
