@@ -24,6 +24,7 @@
     padding: 0 15px 0 15px;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .subtitle-text {
@@ -58,6 +59,7 @@
     font-family: var(--font-family-paragraph);
     font-size: 18px;
     line-height: 1.7rem;
+    text-align: center;
 }
 
 .faq__text {
@@ -70,10 +72,10 @@
 
 .faq__card {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0 15px;
     margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @media (min-width: 768px) {
@@ -97,5 +99,11 @@
     }
     .faq__card-2{
         flex-direction: row;
+    }
+}
+@media (min-width: 992px){
+    .faq__card_item{
+        max-width: 33.3%;
+        padding: 40px 30px;
     }
 }
